@@ -49,6 +49,7 @@ public class BuildAnArrayWithStackOperations {
 
     public static List<String> buildArray(int[] target, int n) {
         //思路：将ArrayList<>()与栈的知识建立直觉
+        //应用知识：ArrayList(add)，for循环，if-else判断，关键词static，调用数组长度关键词length
         ArrayList<String> answer = new ArrayList<>();
         //target.length - 1是数组target的下标，max应为数组target中的元素个数
         int max = target[target.length - 1];
