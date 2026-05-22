@@ -68,11 +68,4 @@ public class BuildAnArrayWithStackOperations {
 
         return answer;
     }
-
-    public static void main(String[] args) {
-        int[] target = {1, 2};
-        int n = 4;
-        List<String> answer = buildArray(target, n);
-        System.out.println("answer = " + answer);
-    }
 }
