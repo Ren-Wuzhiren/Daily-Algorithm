@@ -1,13 +1,13 @@
 package LeetCode_Stack;
 
-import junit.framework.TestCase;
 import org.junit.Test;
 
 import java.util.List;
 
 import static LeetCode_Stack.BuildAnArrayWithStackOperations.buildArray;
 
-public class BuildAnArrayWithStackOperationsTest extends TestCase {
+public class BuildAnArrayWithStackOperationsTest{
+    @Test
     public void testBuildArray01() {
         int[] target = {1, 3};
         int n = 3;
@@ -15,7 +15,7 @@ public class BuildAnArrayWithStackOperationsTest extends TestCase {
         System.out.println("answer = " + answer);
     }
 
-
+    @Test
     public void testBuildArray02() {
         int[] target = {1, 2, 3};
         int n = 3;
@@ -23,6 +23,7 @@ public class BuildAnArrayWithStackOperationsTest extends TestCase {
         System.out.println("answer = " + answer);
     }
 
+    @Test
     public void testBuildArray03() {
         int[] target = {1, 2};
         int n = 4;
