@@ -52,11 +52,11 @@ public class BuildAnArrayWithStackOperations {
         //应用知识：ArrayList(add)，for循环，if-else判断，关键词static，调用数组长度关键词length
         ArrayList<String> answer = new ArrayList<>();
         //target.length - 1是数组target的下标，max应为数组target中的元素个数
-        int max = target[target.length - 1];
+        n = target[target.length - 1];
         //设定数组target的循环边界i从0开始自增
         int i = 0;
         //设定整数流循环变量x从1开始自增至max
-        for (int x = 1; x <= max; x++) {
+        for (int x = 1; x <= n; x++) {
             answer.add("Push");
             //若整数x和数组target下标i对应的元素相等
             if (x == target[i]) {
