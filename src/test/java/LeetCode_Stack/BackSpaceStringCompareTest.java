@@ -2,6 +2,9 @@ package LeetCode_Stack;
 
 import org.junit.Test;
 
+import static LeetCode_Stack.BackSpaceStringCompare.backspaceCompare;
+import static org.junit.Assert.assertEquals;
+
 public class BackSpaceStringCompareTest {
     /*
         示例 1：
@@ -21,23 +24,9 @@ public class BackSpaceStringCompareTest {
     */
 
     @Test
-    public void backspaceCompare01() {
-        String s = "ad#c", t = "ad#c";
-        boolean result = BackSpaceStringCompare.backspaceCompare(s, t);
-        System.out.println("result = " + result);
-    }
-
-    @Test
-    public void backspaceCompare02() {
-        String s = "ab##", t = "c#d#";
-        boolean result = BackSpaceStringCompare.backspaceCompare(s, t);
-        System.out.println("result = " + result);
-    }
-
-    @Test
-    public void backspaceCompare03() {
-        String s = "a#c", t = "b";
-        boolean result = BackSpaceStringCompare.backspaceCompare(s, t);
-        System.out.println("result = " + result);
+    public void Test(){
+        assertEquals(true, backspaceCompare("ad#c", "ad#c"));
+        assertEquals(true, backspaceCompare("ab##", "c#d#"));
+        assertEquals(false, backspaceCompare("a#c", "b"));
     }
 }
