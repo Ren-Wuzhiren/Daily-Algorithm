@@ -32,7 +32,7 @@ public class MaxNumOfK_SumPairs {
         HashMap<Integer, Integer> count = new HashMap<>();
         //2. 初始化 answer 为 0
         int answer = 0;
-        //3. 增强 for 循环实现 "枚举右" 效果
+        //3. 通过增强 for 循环遍历 num 实现 "枚举右" 效果
         for (int num: nums) {
             //4.1 num == 1，key == 5，key - num == 4，哈希表 count 中不存在 4，c 为 0
             //4.2 num == 2，key == 5，key - num == 3，哈希表 count 中不存在 3，c 为 0
@@ -45,6 +45,7 @@ public class MaxNumOfK_SumPairs {
                 count.put(key - num, c - 1);
                 answer++;
             } else {
+                //5. 将未配对的 num 存入 用于 "维护左" 的 count
                 //5.1 c <= 0 将 num == 1 和 c == 1 分别存入 key 和 value
                 //5.2 c <= 0 将 num == 2 和 c == 1 分别存入 key 和 value
                 count.merge(num, 1, Integer::sum);
