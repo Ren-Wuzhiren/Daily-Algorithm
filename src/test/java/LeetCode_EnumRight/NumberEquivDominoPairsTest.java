@@ -4,7 +4,7 @@ import org.junit.Test;
 
 import static org.junit.Assert.*;
 
-public class numberEquivDominoPairsTest {
+public class NumberEquivDominoPairsTest {
     /*
         示例 1：
         输入：dominoes = [[1,2],[2,1],[3,4],[5,6]]
