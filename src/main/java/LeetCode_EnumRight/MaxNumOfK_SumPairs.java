@@ -37,11 +37,11 @@ public class MaxNumOfK_SumPairs {
             //4.1 num == 1，key == 5，key - num == 4，哈希表 count 中不存在 4，c 为 0
             //4.2 num == 2，key == 5，key - num == 3，哈希表 count 中不存在 3，c 为 0
             //4.3 num == 3，key == 5，key - num == 2，哈希表 count 中存在 2，c 为 1
-            //4.3 num == 3，key == 5，key - num == 2，哈希表 count 中存在 1，c 为 1
+            //4.4 num == 4，key == 5，key - num == 1，哈希表 count 中存在 1，c 为 1
             int c = count.getOrDefault(key - num, 0);
             if (c > 0) {
                 //5.3 c == 1，将 (2, 1) 变为 (2, 0)，answer自增
-                //5.3 c == 1，将 (1, 1) 变为 (1, 0)，answer自增
+                //5.4 c == 1，将 (1, 1) 变为 (1, 0)，answer自增
                 count.put(key - num, c - 1);
                 answer++;
             } else {
