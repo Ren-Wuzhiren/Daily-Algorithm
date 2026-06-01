@@ -42,6 +42,9 @@ public class MinimumCardPickUp {
         return answer == Integer.MAX_VALUE ? -1 : answer;
     }
 
+    // 难点：哈希表映射，数组元素作为 key，数组下标作为 value 存入哈希表集合
+    // 预设最大值 MAX_VALUE 作为 answer 最小值，之后更新维护 answer
+
     // 时间复杂度：O (n)，n 为 cards 的长度
     // 空间复杂度：O (n)
 }
