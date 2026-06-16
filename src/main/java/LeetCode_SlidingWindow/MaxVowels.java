@@ -47,17 +47,16 @@ public class MaxVowels {
      * 算法步骤：
      * 1.初始化 vowel 和 ans 的值
      * 2.右端点进窗口
-     *      如果进入的元素是元音字母
-     *      vowel 自增一次
+     * 如果进入的元素是元音字母
+     * vowel 自增一次
      * 3.窗口左端点 = 右端点 - 长度 + 1
-     *      如果窗口长度不足，就不形成窗口
+     * 如果窗口长度不足，就不形成窗口
      * 4.更新答案
      * 5.左端点退出窗口
-     *      如果左端点是元音字母
-     *      vowel 自减一次
+     * 如果左端点是元音字母
+     * vowel 自减一次
      * 6.最后返回 ans
-     *
-     * */
+     */
 
     public int maxVowels(String S, int k) {
         int vowel = 0;
@@ -66,13 +65,13 @@ public class MaxVowels {
         char[] s = S.toCharArray();
         for (int i = 0; i < s.length; i++) {
             // 右端点进入窗口
-            if(s[i] == 'a' || s[i] == 'e' || s[i] == 'i' || s[i] == 'o' || s[i] == 'u') {
+            if (s[i] == 'a' || s[i] == 'e' || s[i] == 'i' || s[i] == 'o' || s[i] == 'u') {
                 vowel++;
             }
 
             // 窗口左端点
             int left = i - k + 1;
-            if(left < 0) {
+            if (left < 0) {
                 continue;
             }
 
