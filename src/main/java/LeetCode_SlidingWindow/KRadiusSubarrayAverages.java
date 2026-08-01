@@ -72,12 +72,24 @@ public class KRadiusSubarrayAverages {
     }
     //leetcode submit region end(Prohibit modification and deletion)
 
-    
+
     public static void main(String[] args) {
         Solution solution = new KRadiusSubarrayAverages().new Solution();
         // put your test code here
-        int nums[] = {7,4,3,9,1,8,5,2,6};
-        int k = 3;
-        int[] actual = solution.getAverages(nums, k);
+        int nums1[] = {7, 4, 3, 9, 1, 8, 5, 2, 6};
+        int k1 = 3;
+        int[] result1 = solution.getAverages(nums1, k1);
+        System.out.println(Arrays.toString(result1));
+
+        int nums2[] = {10000};
+        int k2 = 0;
+        int[] result2 = solution.getAverages(nums2, k2);
+        System.out.println(Arrays.toString(result2));
+
+        int nums3[] = {8};
+        int k3 = 10000;
+        int[] result3 = solution.getAverages(nums3, k3);
+        System.out.println(Arrays.toString(result3));
+
     }
 }
