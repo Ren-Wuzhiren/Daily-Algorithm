@@ -24,6 +24,9 @@ public class MaximumSumOfAlmostUniqueSubarray {
                 }
 
                 // System.out.println("累加sum：" + sum);
+                // System.out.println("count的数量变化：" + count);
+                // System.out.println("distinct自增后：" + distinct);
+                // System.out.println("-----------分割线----------");
 
                 if (i - k + 1 < 0) {
                     continue;
@@ -33,8 +36,8 @@ public class MaximumSumOfAlmostUniqueSubarray {
                     ans = Math.max(ans, sum);
                 }
                 // System.out.println("互不相同的元素个数：" + distinct);
-
                 // System.out.println("最大结果：" + ans);
+                // System.out.println("-----------分割线----------");
 
                 Integer left = nums.get(i - k + 1);
                 sum -= nums.get(i - k + 1);
@@ -43,6 +46,8 @@ public class MaximumSumOfAlmostUniqueSubarray {
                     freq.remove(left);
                     distinct--;
                 }
+                // System.out.println("newCount的数量变化：" + newCount);
+                // System.out.println("distinct自减后：" + distinct);
                 // System.out.println("减滑窗左端：" + sum);
             }
 
