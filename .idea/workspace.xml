@@ -5,15 +5,18 @@
   </component>
   <component name="ChangeListManager">
     <list default="true" id="61a68a43-1fc8-4da6-b969-9cb3104b40bc" name="更改" comment="2461. 长度为 K 子数组中的最大和">
-      <change afterPath="$PROJECT_DIR$/.idea/labuladong/editor.xml" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/.idea/labuladong/statistics.xml" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/.idea/uiDesigner.xml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/.idea/compiler.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/compiler.xml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/.idea/misc.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/misc.xml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/.idea/vcs.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/vcs.xml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/.idea/labuladong/editor.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/labuladong/editor.xml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/.idea/labuladong/statistics.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/labuladong/statistics.xml" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/lc-plugin-template" beforeDir="false" afterPath="$PROJECT_DIR$/lc-plugin-template" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/lc-plugin-template/java-template/src/main/java/leetcode/editor/cn/BinaryTreePreorderTraversal.java" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/pom.xml" beforeDir="false" afterPath="$PROJECT_DIR$/pom.xml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/test/java/leetcode/editor/cn/RemoveElementTest.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/test/java/leetcode/editor/cn/RemoveElementTest.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/target/classes/LeetCode_SlidingWindow/MaximumSumOfAlmostUniqueSubarray.class" beforeDir="false" afterPath="$PROJECT_DIR$/target/classes/LeetCode_SlidingWindow/MaximumSumOfAlmostUniqueSubarray.class" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/target/classes/LeetCode_SlidingWindow/MaximumSumOfDistinctSubarraysWithLengthK.class" beforeDir="false" afterPath="$PROJECT_DIR$/target/classes/LeetCode_SlidingWindow/MaximumSumOfDistinctSubarraysWithLengthK.class" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/target/classes/leetcode/editor/cn/MaximumSumOfAlmostUniqueSubarray.class" beforeDir="false" afterPath="$PROJECT_DIR$/target/classes/leetcode/editor/cn/MaximumSumOfAlmostUniqueSubarray.class" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/target/classes/leetcode/editor/cn/MaximumSumOfDistinctSubarraysWithLengthK.class" beforeDir="false" afterPath="$PROJECT_DIR$/target/classes/leetcode/editor/cn/MaximumSumOfDistinctSubarraysWithLengthK.class" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/target/maven-status/maven-compiler-plugin/compile/default-compile/inputFiles.lst" beforeDir="false" afterPath="$PROJECT_DIR$/target/maven-status/maven-compiler-plugin/compile/default-compile/inputFiles.lst" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/target/test-classes/LeetCode_Queue/DesignRideSharingSystemTest.class" beforeDir="false" afterPath="$PROJECT_DIR$/target/test-classes/LeetCode_Queue/DesignRideSharingSystemTest.class" afterDir="false" />
     </list>
     <option name="SHOW_DIALOG" value="false" />
     <option name="HIGHLIGHT_CONFLICTS" value="true" />
@@ -52,50 +55,52 @@
     <option name="hideEmptyMiddlePackages" value="true" />
     <option name="showLibraryContents" value="true" />
   </component>
-  <component name="PropertiesComponent">{
-  &quot;keyToString&quot;: {
-    &quot;Application.KRadiusSubarrayAverages.executor&quot;: &quot;Run&quot;,
-    &quot;Application.MaximumPointsYouCanObtainFromCards.executor&quot;: &quot;Run&quot;,
-    &quot;Application.MaximumSumOfAlmostUniqueSubarray.executor&quot;: &quot;Run&quot;,
-    &quot;Application.MaximumSumOfDistinctSubarraysWithLengthK.executor&quot;: &quot;Run&quot;,
-    &quot;Application.MinimumRecolorsToGetKConsecutiveBlackBlocks.executor&quot;: &quot;Run&quot;,
-    &quot;Downloaded.Files.Path.Enabled&quot;: &quot;false&quot;,
-    &quot;JUnit.ContainsDuplicateTest.executor&quot;: &quot;Run&quot;,
-    &quot;JUnit.DynamicArrayTest.executor&quot;: &quot;Run&quot;,
-    &quot;JUnit.DynamicArrayTest.test1.executor&quot;: &quot;Run&quot;,
-    &quot;JUnit.DynamicArrayTest.test2.executor&quot;: &quot;Run&quot;,
-    &quot;JUnit.DynamicArrayTest.test6.executor&quot;: &quot;Run&quot;,
-    &quot;JUnit.FindMaxAverageTest.executor&quot;: &quot;Run&quot;,
-    &quot;Maven.Java_Daily_Algorithm [package].executor&quot;: &quot;Run&quot;,
-    &quot;Repository.Attach.Annotations&quot;: &quot;false&quot;,
-    &quot;Repository.Attach.JavaDocs&quot;: &quot;false&quot;,
-    &quot;Repository.Attach.Sources&quot;: &quot;false&quot;,
-    &quot;RunOnceActivity.ShowReadmeOnStart&quot;: &quot;true&quot;,
-    &quot;SHARE_PROJECT_CONFIGURATION_FILES&quot;: &quot;true&quot;,
-    &quot;com.intellij.testIntegration.createTest.CreateTestDialog.defaultLibrary&quot;: &quot;JUnit4&quot;,
-    &quot;com.intellij.testIntegration.createTest.CreateTestDialog.defaultLibrarySuperClass.JUnit3&quot;: &quot;junit.framework.TestCase&quot;,
-    &quot;com.intellij.testIntegration.createTest.CreateTestDialog.defaultLibrarySuperClass.JUnit4&quot;: &quot;&quot;,
-    &quot;com.intellij.testIntegration.createTest.CreateTestDialog.defaultLibrarySuperClass.JUnit5&quot;: &quot;&quot;,
-    &quot;create.test.in.the.same.root&quot;: &quot;true&quot;,
-    &quot;git-widget-placeholder&quot;: &quot;main&quot;,
-    &quot;kotlin-language-version-configured&quot;: &quot;true&quot;,
-    &quot;last_directory_selection&quot;: &quot;D:/develop/Java_DSA/DynamicArray/src&quot;,
-    &quot;last_opened_file_path&quot;: &quot;D:/develop/Java_Daily_Algorithm/src/main/java/LeetCode_SlidingWindow&quot;,
-    &quot;node.js.detected.package.eslint&quot;: &quot;true&quot;,
-    &quot;node.js.detected.package.tslint&quot;: &quot;true&quot;,
-    &quot;node.js.selected.package.eslint&quot;: &quot;(autodetect)&quot;,
-    &quot;node.js.selected.package.tslint&quot;: &quot;(autodetect)&quot;,
-    &quot;nodejs_package_manager_path&quot;: &quot;npm&quot;,
-    &quot;onboarding.tips.debug.path&quot;: &quot;D:/develop/Java_DSA/src/main/java/company/Main.java&quot;,
-    &quot;project.structure.last.edited&quot;: &quot;模块&quot;,
-    &quot;project.structure.proportion&quot;: &quot;0.15&quot;,
-    &quot;project.structure.side.proportion&quot;: &quot;0.2&quot;,
-    &quot;settings.editor.selected.configurable&quot;: &quot;preferences.lookFeel&quot;,
-    &quot;vue.rearranger.settings.migration&quot;: &quot;true&quot;,
-    &quot;应用程序.BuildAnArrayWithStackOperations.executor&quot;: &quot;Debug&quot;,
-    &quot;应用程序.Main.executor&quot;: &quot;Run&quot;
+  <component name="PropertiesComponent"><![CDATA[{
+  "keyToString": {
+    "Application.KRadiusSubarrayAverages.executor": "Run",
+    "Application.MaximumPointsYouCanObtainFromCards.executor": "Run",
+    "Application.MaximumSumOfAlmostUniqueSubarray.executor": "Run",
+    "Application.MaximumSumOfDistinctSubarraysWithLengthK.executor": "Run",
+    "Application.MinimumRecolorsToGetKConsecutiveBlackBlocks.executor": "Run",
+    "Downloaded.Files.Path.Enabled": "false",
+    "JUnit.ContainsDuplicateTest.executor": "Run",
+    "JUnit.DynamicArrayTest.executor": "Run",
+    "JUnit.DynamicArrayTest.test1.executor": "Run",
+    "JUnit.DynamicArrayTest.test2.executor": "Run",
+    "JUnit.DynamicArrayTest.test6.executor": "Run",
+    "JUnit.FindMaxAverageTest.executor": "Run",
+    "JUnit.RemoveElementTest.executor": "Run",
+    "Maven.Java_Daily_Algorithm [package].executor": "Run",
+    "Repository.Attach.Annotations": "false",
+    "Repository.Attach.JavaDocs": "false",
+    "Repository.Attach.Sources": "false",
+    "RunOnceActivity.ShowReadmeOnStart": "true",
+    "SHARE_PROJECT_CONFIGURATION_FILES": "true",
+    "com.intellij.testIntegration.createTest.CreateTestDialog.defaultLibrary": "JUnit4",
+    "com.intellij.testIntegration.createTest.CreateTestDialog.defaultLibrarySuperClass.JUnit3": "junit.framework.TestCase",
+    "com.intellij.testIntegration.createTest.CreateTestDialog.defaultLibrarySuperClass.JUnit4": "",
+    "com.intellij.testIntegration.createTest.CreateTestDialog.defaultLibrarySuperClass.JUnit5": "",
+    "create.test.in.the.same.root": "true",
+    "git-widget-placeholder": "codex/algorithm-revival",
+    "kotlin-language-version-configured": "true",
+    "last_directory_selection": "D:/develop/Java_DSA/DynamicArray/src",
+    "last_opened_file_path": "D:/develop/Java_Daily_Algorithm",
+    "node.js.detected.package.eslint": "true",
+    "node.js.detected.package.tslint": "true",
+    "node.js.selected.package.eslint": "(autodetect)",
+    "node.js.selected.package.tslint": "(autodetect)",
+    "nodejs_package_manager_path": "npm",
+    "onboarding.tips.debug.path": "D:/develop/Java_DSA/src/main/java/company/Main.java",
+    "project.structure.last.edited": "模块",
+    "project.structure.proportion": "0.15",
+    "project.structure.side.proportion": "0.2",
+    "settings.editor.selected.configurable": "preferences.lookFeel",
+    "vue.rearranger.settings.migration": "true",
+    "应用程序.BuildAnArrayWithStackOperations.executor": "Debug",
+    "应用程序.Main.executor": "Run",
+    "应用程序.RemoveElement.executor": "Run"
   }
-}</component>
+}]]></component>
   <component name="RecentsManager">
     <key name="CopyFile.RECENT_KEYS">
       <recent name="D:\develop\Java_Daily_Algorithm\src\main\java\LeetCode_SlidingWindow" />
@@ -143,6 +148,7 @@
       <workItem from="1786356945992" duration="475000" />
       <workItem from="1786357659276" duration="796000" />
       <workItem from="1787013319194" duration="43000" />
+      <workItem from="1787381771309" duration="2671000" />
     </task>
     <task id="LOCAL-00001" summary="2090.半径为k的子数组平均值">
       <option name="closed" value="true" />
