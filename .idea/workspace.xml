@@ -6,17 +6,8 @@
   <component name="ChangeListManager">
     <list default="true" id="61a68a43-1fc8-4da6-b969-9cb3104b40bc" name="更改" comment="2461. 长度为 K 子数组中的最大和">
       <change beforePath="$PROJECT_DIR$/.idea/labuladong/editor.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/labuladong/editor.xml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/.idea/labuladong/statistics.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/labuladong/statistics.xml" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/lc-plugin-template" beforeDir="false" afterPath="$PROJECT_DIR$/lc-plugin-template" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/lc-plugin-template/java-template/src/main/java/leetcode/editor/cn/BinaryTreePreorderTraversal.java" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/test/java/leetcode/editor/cn/RemoveElementTest.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/test/java/leetcode/editor/cn/RemoveElementTest.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/target/classes/LeetCode_SlidingWindow/MaximumSumOfAlmostUniqueSubarray.class" beforeDir="false" afterPath="$PROJECT_DIR$/target/classes/LeetCode_SlidingWindow/MaximumSumOfAlmostUniqueSubarray.class" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/target/classes/LeetCode_SlidingWindow/MaximumSumOfDistinctSubarraysWithLengthK.class" beforeDir="false" afterPath="$PROJECT_DIR$/target/classes/LeetCode_SlidingWindow/MaximumSumOfDistinctSubarraysWithLengthK.class" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/target/classes/leetcode/editor/cn/MaximumSumOfAlmostUniqueSubarray.class" beforeDir="false" afterPath="$PROJECT_DIR$/target/classes/leetcode/editor/cn/MaximumSumOfAlmostUniqueSubarray.class" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/target/classes/leetcode/editor/cn/MaximumSumOfDistinctSubarraysWithLengthK.class" beforeDir="false" afterPath="$PROJECT_DIR$/target/classes/leetcode/editor/cn/MaximumSumOfDistinctSubarraysWithLengthK.class" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/target/maven-status/maven-compiler-plugin/compile/default-compile/inputFiles.lst" beforeDir="false" afterPath="$PROJECT_DIR$/target/maven-status/maven-compiler-plugin/compile/default-compile/inputFiles.lst" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/target/test-classes/LeetCode_Queue/DesignRideSharingSystemTest.class" beforeDir="false" afterPath="$PROJECT_DIR$/target/test-classes/LeetCode_Queue/DesignRideSharingSystemTest.class" afterDir="false" />
     </list>
     <option name="SHOW_DIALOG" value="false" />
     <option name="HIGHLIGHT_CONFLICTS" value="true" />
@@ -98,7 +89,8 @@
     "vue.rearranger.settings.migration": "true",
     "应用程序.BuildAnArrayWithStackOperations.executor": "Debug",
     "应用程序.Main.executor": "Run",
-    "应用程序.RemoveElement.executor": "Run"
+    "应用程序.RemoveElement.executor": "Run",
+    "应用程序.TwoSumIiInputArrayIsSorted.executor": "Run"
   }
 }]]></component>
   <component name="RecentsManager">
@@ -148,7 +140,7 @@
       <workItem from="1786356945992" duration="475000" />
       <workItem from="1786357659276" duration="796000" />
       <workItem from="1787013319194" duration="43000" />
-      <workItem from="1787381771309" duration="2671000" />
+      <workItem from="1787381771309" duration="5303000" />
     </task>
     <task id="LOCAL-00001" summary="2090.半径为k的子数组平均值">
       <option name="closed" value="true" />
