@@ -47,25 +47,25 @@ public class RemoveElementTest {
     @Test
     public void emptyArray() {
         // 空数组：k 应为 0
-        // assertRemove(new int[]{}, 1, new int[]{});
+        assertRemove(new int[]{}, 1, new int[]{});
     }
 
     @Test
     public void noValExists() {
         // val 不在数组中：k 应等于数组长度
-        // assertRemove(new int[]{1, 2, 3}, 9, new int[]{1, 2, 3});
+        assertRemove(new int[]{1, 2, 3}, 9, new int[]{1, 2, 3});
     }
 
     @Test
     public void allVal() {
         // 全部等于 val：k 应为 0
-        // assertRemove(new int[]{2, 2, 2}, 2, new int[]{});
+        assertRemove(new int[]{2, 2, 2}, 2, new int[]{});
     }
 
     @Test
     public void singleElement() {
         // 单元素：等于 / 不等于 val 两种情况
-        // assertRemove(new int[]{1}, 1, new int[]{});
-        // assertRemove(new int[]{1}, 2, new int[]{1});
+        assertRemove(new int[]{1}, 1, new int[]{});
+        assertRemove(new int[]{1}, 2, new int[]{1});
     }
 }
