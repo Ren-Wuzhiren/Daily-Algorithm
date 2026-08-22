@@ -5,7 +5,7 @@
     <modelVersion>4.0.0</modelVersion>
 
     <groupId>company</groupId>
-    <artifactId>Java_DSA</artifactId>
+    <artifactId>Java_Daily_Algorithm</artifactId>
     <version>1.0-SNAPSHOT</version>
 
     <dependencies>

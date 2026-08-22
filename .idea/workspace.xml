@@ -4,7 +4,17 @@
     <option name="autoReloadType" value="SELECTIVE" />
   </component>
   <component name="ChangeListManager">
-    <list default="true" id="61a68a43-1fc8-4da6-b969-9cb3104b40bc" name="更改" comment="" />
+    <list default="true" id="61a68a43-1fc8-4da6-b969-9cb3104b40bc" name="更改" comment="2461. 长度为 K 子数组中的最大和">
+      <change afterPath="$PROJECT_DIR$/.idea/labuladong/editor.xml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/.idea/labuladong/statistics.xml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/.idea/uiDesigner.xml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/.idea/compiler.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/compiler.xml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/.idea/misc.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/misc.xml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/.idea/vcs.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/vcs.xml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/lc-plugin-template/java-template/src/main/java/leetcode/editor/cn/BinaryTreePreorderTraversal.java" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/pom.xml" beforeDir="false" afterPath="$PROJECT_DIR$/pom.xml" afterDir="false" />
+    </list>
     <option name="SHOW_DIALOG" value="false" />
     <option name="HIGHLIGHT_CONFLICTS" value="true" />
     <option name="HIGHLIGHT_NON_ACTIVE_CHANGELIST" value="false" />
@@ -15,11 +25,22 @@
       <list>
         <option value="JUnit5 Test Class" />
         <option value="Class" />
+        <option value="JUnit3 Test Class" />
+        <option value="JUnit4 Test Class" />
       </list>
     </option>
   </component>
+  <component name="Git.Merge.Settings">
+    <option name="BRANCH" value="origin/Queue" />
+  </component>
   <component name="Git.Settings">
+    <option name="RECENT_BRANCH_BY_REPOSITORY">
+      <map>
+        <entry key="$PROJECT_DIR$" value="main" />
+      </map>
+    </option>
     <option name="RECENT_GIT_ROOT_PATH" value="$PROJECT_DIR$" />
+    <option name="ROOT_SYNC" value="DONT_SYNC" />
   </component>
   <component name="ProjectColorInfo">{
   &quot;customColor&quot;: &quot;&quot;,
@@ -31,66 +52,69 @@
     <option name="hideEmptyMiddlePackages" value="true" />
     <option name="showLibraryContents" value="true" />
   </component>
-  <component name="PropertiesComponent"><![CDATA[{
-  "keyToString": {
-    "Downloaded.Files.Path.Enabled": "false",
-    "JUnit.DynamicArrayTest.executor": "Run",
-    "JUnit.DynamicArrayTest.test1.executor": "Run",
-    "JUnit.DynamicArrayTest.test2.executor": "Run",
-    "JUnit.DynamicArrayTest.test6.executor": "Run",
-    "Repository.Attach.Annotations": "false",
-    "Repository.Attach.JavaDocs": "false",
-    "Repository.Attach.Sources": "false",
-    "RunOnceActivity.ShowReadmeOnStart": "true",
-    "com.intellij.testIntegration.createTest.CreateTestDialog.defaultLibrary": "JUnit5",
-    "com.intellij.testIntegration.createTest.CreateTestDialog.defaultLibrarySuperClass.JUnit5": "",
-    "create.test.in.the.same.root": "true",
-    "git-widget-placeholder": "master",
-    "kotlin-language-version-configured": "true",
-    "last_directory_selection": "D:/develop/Java_DSA/DynamicArray/src",
-    "last_opened_file_path": "D:/develop/Java_DSA",
-    "node.js.detected.package.eslint": "true",
-    "node.js.detected.package.tslint": "true",
-    "node.js.selected.package.eslint": "(autodetect)",
-    "node.js.selected.package.tslint": "(autodetect)",
-    "nodejs_package_manager_path": "npm",
-    "onboarding.tips.debug.path": "D:/develop/Java_DSA/src/main/java/company/Main.java",
-    "project.structure.last.edited": "模块",
-    "project.structure.proportion": "0.15",
-    "project.structure.side.proportion": "0.2",
-    "settings.editor.selected.configurable": "preferences.lookFeel",
-    "vue.rearranger.settings.migration": "true",
-    "应用程序.BuildAnArrayWithStackOperations.executor": "Debug",
-    "应用程序.Main.executor": "Run"
+  <component name="PropertiesComponent">{
+  &quot;keyToString&quot;: {
+    &quot;Application.KRadiusSubarrayAverages.executor&quot;: &quot;Run&quot;,
+    &quot;Application.MaximumPointsYouCanObtainFromCards.executor&quot;: &quot;Run&quot;,
+    &quot;Application.MaximumSumOfAlmostUniqueSubarray.executor&quot;: &quot;Run&quot;,
+    &quot;Application.MaximumSumOfDistinctSubarraysWithLengthK.executor&quot;: &quot;Run&quot;,
+    &quot;Application.MinimumRecolorsToGetKConsecutiveBlackBlocks.executor&quot;: &quot;Run&quot;,
+    &quot;Downloaded.Files.Path.Enabled&quot;: &quot;false&quot;,
+    &quot;JUnit.ContainsDuplicateTest.executor&quot;: &quot;Run&quot;,
+    &quot;JUnit.DynamicArrayTest.executor&quot;: &quot;Run&quot;,
+    &quot;JUnit.DynamicArrayTest.test1.executor&quot;: &quot;Run&quot;,
+    &quot;JUnit.DynamicArrayTest.test2.executor&quot;: &quot;Run&quot;,
+    &quot;JUnit.DynamicArrayTest.test6.executor&quot;: &quot;Run&quot;,
+    &quot;JUnit.FindMaxAverageTest.executor&quot;: &quot;Run&quot;,
+    &quot;Maven.Java_Daily_Algorithm [package].executor&quot;: &quot;Run&quot;,
+    &quot;Repository.Attach.Annotations&quot;: &quot;false&quot;,
+    &quot;Repository.Attach.JavaDocs&quot;: &quot;false&quot;,
+    &quot;Repository.Attach.Sources&quot;: &quot;false&quot;,
+    &quot;RunOnceActivity.ShowReadmeOnStart&quot;: &quot;true&quot;,
+    &quot;SHARE_PROJECT_CONFIGURATION_FILES&quot;: &quot;true&quot;,
+    &quot;com.intellij.testIntegration.createTest.CreateTestDialog.defaultLibrary&quot;: &quot;JUnit4&quot;,
+    &quot;com.intellij.testIntegration.createTest.CreateTestDialog.defaultLibrarySuperClass.JUnit3&quot;: &quot;junit.framework.TestCase&quot;,
+    &quot;com.intellij.testIntegration.createTest.CreateTestDialog.defaultLibrarySuperClass.JUnit4&quot;: &quot;&quot;,
+    &quot;com.intellij.testIntegration.createTest.CreateTestDialog.defaultLibrarySuperClass.JUnit5&quot;: &quot;&quot;,
+    &quot;create.test.in.the.same.root&quot;: &quot;true&quot;,
+    &quot;git-widget-placeholder&quot;: &quot;main&quot;,
+    &quot;kotlin-language-version-configured&quot;: &quot;true&quot;,
+    &quot;last_directory_selection&quot;: &quot;D:/develop/Java_DSA/DynamicArray/src&quot;,
+    &quot;last_opened_file_path&quot;: &quot;D:/develop/Java_Daily_Algorithm/src/main/java/LeetCode_SlidingWindow&quot;,
+    &quot;node.js.detected.package.eslint&quot;: &quot;true&quot;,
+    &quot;node.js.detected.package.tslint&quot;: &quot;true&quot;,
+    &quot;node.js.selected.package.eslint&quot;: &quot;(autodetect)&quot;,
+    &quot;node.js.selected.package.tslint&quot;: &quot;(autodetect)&quot;,
+    &quot;nodejs_package_manager_path&quot;: &quot;npm&quot;,
+    &quot;onboarding.tips.debug.path&quot;: &quot;D:/develop/Java_DSA/src/main/java/company/Main.java&quot;,
+    &quot;project.structure.last.edited&quot;: &quot;模块&quot;,
+    &quot;project.structure.proportion&quot;: &quot;0.15&quot;,
+    &quot;project.structure.side.proportion&quot;: &quot;0.2&quot;,
+    &quot;settings.editor.selected.configurable&quot;: &quot;preferences.lookFeel&quot;,
+    &quot;vue.rearranger.settings.migration&quot;: &quot;true&quot;,
+    &quot;应用程序.BuildAnArrayWithStackOperations.executor&quot;: &quot;Debug&quot;,
+    &quot;应用程序.Main.executor&quot;: &quot;Run&quot;
   }
-}]]></component>
+}</component>
   <component name="RecentsManager">
+    <key name="CopyFile.RECENT_KEYS">
+      <recent name="D:\develop\Java_Daily_Algorithm\src\main\java\LeetCode_SlidingWindow" />
+    </key>
     <key name="CreateTestDialog.Recents.Supers">
       <recent name="" />
+      <recent name="junit.framework.TestCase" />
+    </key>
+    <key name="MoveClassesOrPackagesDialog.RECENTS_KEY">
+      <recent name="LeetCode_SlidingWindow" />
     </key>
     <key name="CreateTestDialog.RecentsKey">
+      <recent name="LeetCode_SlidingWindow" />
+      <recent name="leetcode.editor.cn" />
       <recent name="" />
     </key>
-  </component>
-  <component name="RunManager">
-    <configuration name="BuildAnArrayWithStackOperations" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
-      <option name="MAIN_CLASS_NAME" value="LeetCode_Stack.BuildAnArrayWithStackOperations" />
-      <module name="Java_DSA" />
-      <extension name="coverage">
-        <pattern>
-          <option name="PATTERN" value="LeetCode_Stack.*" />
-          <option name="ENABLED" value="true" />
-        </pattern>
-      </extension>
-      <method v="2">
-        <option name="Make" enabled="true" />
-      </method>
-    </configuration>
-    <recent_temporary>
-      <list>
-        <item itemvalue="应用程序.BuildAnArrayWithStackOperations" />
-      </list>
-    </recent_temporary>
+    <key name="CopyClassDialog.RECENTS_KEY">
+      <recent name="LeetCode_SlidingWindow" />
+    </key>
   </component>
   <component name="SharedIndexes">
     <attachedChunks>
@@ -113,11 +137,93 @@
       <workItem from="1774770945357" duration="4684000" />
       <workItem from="1779428628893" duration="81000" />
       <workItem from="1779428718665" duration="3688000" />
+      <workItem from="1785751001239" duration="19081000" />
+      <workItem from="1785997674786" duration="5586000" />
+      <workItem from="1786196712348" duration="11198000" />
+      <workItem from="1786356945992" duration="475000" />
+      <workItem from="1786357659276" duration="796000" />
+      <workItem from="1787013319194" duration="43000" />
     </task>
+    <task id="LOCAL-00001" summary="2090.半径为k的子数组平均值">
+      <option name="closed" value="true" />
+      <created>1785550844509</created>
+      <option name="number" value="00001" />
+      <option name="presentableId" value="LOCAL-00001" />
+      <option name="project" value="LOCAL" />
+      <updated>1785550844509</updated>
+    </task>
+    <task id="LOCAL-00002" summary="2090.半径为k的子数组平均值">
+      <option name="closed" value="true" />
+      <created>1785552442911</created>
+      <option name="number" value="00002" />
+      <option name="presentableId" value="LOCAL-00002" />
+      <option name="project" value="LOCAL" />
+      <updated>1785552442911</updated>
+    </task>
+    <task id="LOCAL-00003" summary="2090.半径为k的子数组平均值">
+      <option name="closed" value="true" />
+      <created>1785554270374</created>
+      <option name="number" value="00003" />
+      <option name="presentableId" value="LOCAL-00003" />
+      <option name="project" value="LOCAL" />
+      <updated>1785554270374</updated>
+    </task>
+    <task id="LOCAL-00004" summary="2379.得到K个黑块的最少涂色次数">
+      <option name="closed" value="true" />
+      <created>1785630975653</created>
+      <option name="number" value="00004" />
+      <option name="presentableId" value="LOCAL-00004" />
+      <option name="project" value="LOCAL" />
+      <updated>1785630975654</updated>
+    </task>
+    <task id="LOCAL-00005" summary="2841.几乎唯一子数组的最大和">
+      <option name="closed" value="true" />
+      <created>1785642771003</created>
+      <option name="number" value="00005" />
+      <option name="presentableId" value="LOCAL-00005" />
+      <option name="project" value="LOCAL" />
+      <updated>1785642771003</updated>
+    </task>
+    <task id="LOCAL-00006" summary="2841.几乎唯一子数组的最大和">
+      <option name="closed" value="true" />
+      <created>1785753291551</created>
+      <option name="number" value="00006" />
+      <option name="presentableId" value="LOCAL-00006" />
+      <option name="project" value="LOCAL" />
+      <updated>1785753291551</updated>
+    </task>
+    <task id="LOCAL-00007" summary="2461. 长度为 K 子数组中的最大和">
+      <option name="closed" value="true" />
+      <created>1785766805615</created>
+      <option name="number" value="00007" />
+      <option name="presentableId" value="LOCAL-00007" />
+      <option name="project" value="LOCAL" />
+      <updated>1785766805615</updated>
+    </task>
+    <option name="localTasksCounter" value="8" />
     <servers />
   </component>
   <component name="TypeScriptGeneratedFilesManager">
     <option name="version" value="3" />
+  </component>
+  <component name="Vcs.Log.Tabs.Properties">
+    <option name="TAB_STATES">
+      <map>
+        <entry key="MAIN">
+          <value>
+            <State />
+          </value>
+        </entry>
+      </map>
+    </option>
+  </component>
+  <component name="VcsManagerConfiguration">
+    <MESSAGE value="1128.等价多米诺骨牌的数量" />
+    <MESSAGE value="2090.半径为k的子数组平均值" />
+    <MESSAGE value="2379.得到K个黑块的最少涂色次数" />
+    <MESSAGE value="2841.几乎唯一子数组的最大和" />
+    <MESSAGE value="2461. 长度为 K 子数组中的最大和" />
+    <option name="LAST_COMMIT_MESSAGE" value="2461. 长度为 K 子数组中的最大和" />
   </component>
   <component name="XDebuggerManager">
     <breakpoint-manager>
@@ -161,6 +267,36 @@
           <url>file://$PROJECT_DIR$/src/main/java/LeetCode_Stack/BuildAnArrayWithStackOperations.java</url>
           <line>53</line>
           <option name="timeStamp" value="11" />
+        </line-breakpoint>
+        <line-breakpoint enabled="true" type="java-line">
+          <url>file://$PROJECT_DIR$/src/main/java/leetcode/editor/cn/MinimumRecolorsToGetKConsecutiveBlackBlocks.java</url>
+          <line>15</line>
+          <option name="timeStamp" value="59" />
+        </line-breakpoint>
+        <line-breakpoint enabled="true" type="java-line">
+          <url>file://$PROJECT_DIR$/src/main/java/leetcode/editor/cn/MinimumRecolorsToGetKConsecutiveBlackBlocks.java</url>
+          <line>25</line>
+          <option name="timeStamp" value="60" />
+        </line-breakpoint>
+        <line-breakpoint enabled="true" type="java-line">
+          <url>file://$PROJECT_DIR$/src/main/java/leetcode/editor/cn/MinimumRecolorsToGetKConsecutiveBlackBlocks.java</url>
+          <line>22</line>
+          <option name="timeStamp" value="61" />
+        </line-breakpoint>
+        <line-breakpoint enabled="true" type="java-line">
+          <url>file://$PROJECT_DIR$/src/main/java/leetcode/editor/cn/MinimumRecolorsToGetKConsecutiveBlackBlocks.java</url>
+          <line>29</line>
+          <option name="timeStamp" value="62" />
+        </line-breakpoint>
+        <line-breakpoint enabled="true" type="java-line">
+          <url>file://$PROJECT_DIR$/src/main/java/leetcode/editor/cn/MinimumRecolorsToGetKConsecutiveBlackBlocks.java</url>
+          <line>40</line>
+          <option name="timeStamp" value="63" />
+        </line-breakpoint>
+        <line-breakpoint enabled="true" type="java-line">
+          <url>file://$PROJECT_DIR$/src/main/java/leetcode/editor/cn/MaximumSumOfAlmostUniqueSubarray.java</url>
+          <line>104</line>
+          <option name="timeStamp" value="64" />
         </line-breakpoint>
       </breakpoints>
     </breakpoint-manager>
