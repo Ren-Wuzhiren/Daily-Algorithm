@@ -2,6 +2,7 @@
 
 每个套路一页，按 [README 的 10 大套路索引](../README.md) 编号：
 
+- [00 学习意识（每日默念）](00-学习意识.md)
 - [01 数组/双指针](01-array-two-pointers.md)
 - [02 滑动窗口](02-sliding-window.md)
 - [03 哈希表/计数](03-hashmap.md)
