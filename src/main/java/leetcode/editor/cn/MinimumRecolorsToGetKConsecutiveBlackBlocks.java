@@ -1,7 +1,5 @@
 package leetcode.editor.cn;
 
-import LeetCode_SlidingWindow.MaxVowels;
-
 import java.util.*;
 
 public class MinimumRecolorsToGetKConsecutiveBlackBlocks {

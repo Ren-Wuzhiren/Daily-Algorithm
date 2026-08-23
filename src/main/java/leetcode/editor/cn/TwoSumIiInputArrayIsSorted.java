@@ -29,9 +29,31 @@ public class TwoSumIiInputArrayIsSorted {
     public static void main(String[] args) {
         Solution solution = new TwoSumIiInputArrayIsSorted().new Solution();
         // put your test code here
+        testExample1();
+        testExample2();
+        testExample3();
+    }
 
+    public static void testExample1() {
+        Solution solution = new TwoSumIiInputArrayIsSorted().new Solution();
         int[] numbers = {2, 7, 11, 15};
         int target = 9;
+        int[] ans = solution.twoSum(numbers, target);
+        System.out.println("ans = " + ans);
+    }
+
+    public static void testExample2() {
+        Solution solution = new TwoSumIiInputArrayIsSorted().new Solution();
+        int[] numbers = {2, 3, 4};
+        int target = 6;
+        int[] ans = solution.twoSum(numbers, target);
+        System.out.println("ans = " + ans);
+    }
+
+    public static void testExample3() {
+        Solution solution = new TwoSumIiInputArrayIsSorted().new Solution();
+        int[] numbers = {-1, 0};
+        int target = -1;
         int[] ans = solution.twoSum(numbers, target);
         System.out.println("ans = " + ans);
     }
