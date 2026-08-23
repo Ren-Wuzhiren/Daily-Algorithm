@@ -7,20 +7,18 @@ public class TwoSumIiInputArrayIsSorted {
     //leetcode submit region begin(Prohibit modification and deletion)
     class Solution {
         public int[] twoSum(int[] numbers, int target) {
-            int right = 0, left = 0;
-
-            for (int i = 0; i < numbers.length; i++) {
-                for (int j = numbers.length - 1; j > i; j--) {
-                    if (numbers[i] + numbers[j] == target) {
-                        right = j + numbers.length;
-                    }
+            int right = numbers.length - 1, left = 0;
+            while(left < right) {
+                int sum = numbers[left] + numbers[right];
+                if (sum == target) {
+                    return new int[] {left + 1, right + 1};
+                } else if (sum < target) {
+                    left++;
+                } else {
+                    right--;
                 }
-                left = i + 1;
             }
-
-            int[] result = {left, right};
-
-            return result;
+            return new int[] {-1, -1};
         }
     }
     //leetcode submit region end(Prohibit modification and deletion)
@@ -34,6 +32,5 @@ public class TwoSumIiInputArrayIsSorted {
         int target = 9;
         int[] ans = solution.twoSum(numbers, target);
 
-        System.out.println(ans);
     }
 }

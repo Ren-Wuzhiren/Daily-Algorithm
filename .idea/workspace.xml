@@ -5,9 +5,15 @@
   </component>
   <component name="ChangeListManager">
     <list default="true" id="61a68a43-1fc8-4da6-b969-9cb3104b40bc" name="更改" comment="2461. 长度为 K 子数组中的最大和">
-      <change beforePath="$PROJECT_DIR$/.idea/labuladong/editor.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/labuladong/editor.xml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/.idea/labuladong/statistics.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/labuladong/statistics.xml" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/lc-plugin-template/java-template/src/main/java/leetcode/editor/cn/BinaryTreePreorderTraversal.java" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/main/java/leetcode/editor/cn/RemoveElement.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/java/leetcode/editor/cn/RemoveElement.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/main/java/leetcode/editor/cn/TwoSumIiInputArrayIsSorted.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/java/leetcode/editor/cn/TwoSumIiInputArrayIsSorted.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/target/classes/leetcode/editor/cn/RemoveElement$Solution.class" beforeDir="false" afterPath="$PROJECT_DIR$/target/classes/leetcode/editor/cn/RemoveElement$Solution.class" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/target/classes/leetcode/editor/cn/RemoveElement.class" beforeDir="false" afterPath="$PROJECT_DIR$/target/classes/leetcode/editor/cn/RemoveElement.class" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/target/classes/leetcode/editor/cn/TwoSumIiInputArrayIsSorted$Solution.class" beforeDir="false" afterPath="$PROJECT_DIR$/target/classes/leetcode/editor/cn/TwoSumIiInputArrayIsSorted$Solution.class" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/target/classes/leetcode/editor/cn/TwoSumIiInputArrayIsSorted.class" beforeDir="false" afterPath="$PROJECT_DIR$/target/classes/leetcode/editor/cn/TwoSumIiInputArrayIsSorted.class" afterDir="false" />
     </list>
     <option name="SHOW_DIALOG" value="false" />
     <option name="HIGHLIGHT_CONFLICTS" value="true" />
@@ -89,7 +95,7 @@
     "vue.rearranger.settings.migration": "true",
     "应用程序.BuildAnArrayWithStackOperations.executor": "Debug",
     "应用程序.Main.executor": "Run",
-    "应用程序.RemoveElement.executor": "Run",
+    "应用程序.RemoveElement.executor": "Debug",
     "应用程序.TwoSumIiInputArrayIsSorted.executor": "Run"
   }
 }]]></component>
@@ -140,7 +146,7 @@
       <workItem from="1786356945992" duration="475000" />
       <workItem from="1786357659276" duration="796000" />
       <workItem from="1787013319194" duration="43000" />
-      <workItem from="1787381771309" duration="5303000" />
+      <workItem from="1787381771309" duration="9130000" />
     </task>
     <task id="LOCAL-00001" summary="2090.半径为k的子数组平均值">
       <option name="closed" value="true" />
@@ -295,6 +301,16 @@
           <url>file://$PROJECT_DIR$/src/main/java/leetcode/editor/cn/MaximumSumOfAlmostUniqueSubarray.java</url>
           <line>104</line>
           <option name="timeStamp" value="64" />
+        </line-breakpoint>
+        <line-breakpoint enabled="true" type="java-line">
+          <url>file://$PROJECT_DIR$/src/main/java/leetcode/editor/cn/RemoveElement.java</url>
+          <line>13</line>
+          <option name="timeStamp" value="66" />
+        </line-breakpoint>
+        <line-breakpoint enabled="true" type="java-line">
+          <url>file://$PROJECT_DIR$/src/main/java/leetcode/editor/cn/RemoveElement.java</url>
+          <line>16</line>
+          <option name="timeStamp" value="67" />
         </line-breakpoint>
       </breakpoints>
     </breakpoint-manager>
