@@ -1,1 +1,3 @@
 lc-plugin-template/
+/target/
+/.idea/
