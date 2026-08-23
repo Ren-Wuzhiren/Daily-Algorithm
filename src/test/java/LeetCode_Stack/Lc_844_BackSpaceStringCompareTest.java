@@ -2,10 +2,10 @@ package LeetCode_Stack;
 
 import org.junit.Test;
 
-import static LeetCode_Stack.BackSpaceStringCompare.backspaceCompare;
+import static LeetCode_Stack.Lc_844_BackSpaceStringCompare.backspaceCompare;
 import static org.junit.Assert.assertEquals;
 
-public class BackSpaceStringCompareTest {
+public class Lc_844_BackSpaceStringCompareTest {
     /*
         示例 1：
         输入：s = "ab#c", t = "ad#c"

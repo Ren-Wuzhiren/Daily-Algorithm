@@ -1,6 +1,6 @@
 package LeetCode_SlidingWindow;
 
-public class MinimumRecolorsToGetKConsecutiveBlackBlocks {
+public class Lc_2379_MinimumRecolorsToGetKConsecutiveBlackBlocks {
 
     //leetcode submit region begin(Prohibit modification and deletion)
     class Solution {
@@ -30,7 +30,7 @@ public class MinimumRecolorsToGetKConsecutiveBlackBlocks {
 
     
     public static void main(String[] args) {
-        Solution solution = new MinimumRecolorsToGetKConsecutiveBlackBlocks().new Solution();
+        Solution solution = new Lc_2379_MinimumRecolorsToGetKConsecutiveBlackBlocks().new Solution();
         // put your test code here
         String block1 = "WBBWWBBWBW";
         int k = 7;

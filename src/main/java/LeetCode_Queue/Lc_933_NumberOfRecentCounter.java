@@ -3,7 +3,7 @@ package LeetCode_Queue;
 import java.util.ArrayDeque;
 import java.util.Queue;
 
-public class NumberOfRecentCounter {
+public class Lc_933_NumberOfRecentCounter {
     /*
         写一个 RecentCounter 类来计算特定时间范围内最近的请求。
 

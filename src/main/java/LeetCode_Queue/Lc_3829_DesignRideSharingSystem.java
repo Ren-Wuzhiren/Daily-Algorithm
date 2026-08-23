@@ -2,7 +2,7 @@ package LeetCode_Queue;
 
 import java.util.*;
 
-public class DesignRideSharingSystem {
+public class Lc_3829_DesignRideSharingSystem {
     /**
         现在需要设计一个共享出行系统管理乘客的叫车请求和司机的空闲状态。
         乘客发出叫车请求，司机在系统中陆续变为可用状态。

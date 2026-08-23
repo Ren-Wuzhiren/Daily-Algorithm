@@ -1,6 +1,6 @@
 package LeetCode_Stack;
 
-public class BackSpaceStringCompare {
+public class Lc_844_BackSpaceStringCompare {
     /*
         给定 s 和 t 两个字符串，当它们分别被输入到空白的文本编辑器后，如果两者相等，返回 true 。# 代表退格字符。
 

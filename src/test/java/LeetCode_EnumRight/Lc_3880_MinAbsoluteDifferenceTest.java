@@ -4,7 +4,7 @@ import org.junit.Test;
 
 import static org.junit.Assert.*;
 
-public class MinAbsoluteDifferenceTest {
+public class Lc_3880_MinAbsoluteDifferenceTest {
     /*
         示例 1：
         输入： nums = [1,0,0,2,0,1]
@@ -22,7 +22,7 @@ public class MinAbsoluteDifferenceTest {
         数组中不存在有效下标对，因此结果是 -1。
     */
 
-    private final MinAbsoluteDifference solution = new MinAbsoluteDifference();
+    private final Lc_3880_MinAbsoluteDifference solution = new Lc_3880_MinAbsoluteDifference();
 
     @Test
     public void testExample1() {

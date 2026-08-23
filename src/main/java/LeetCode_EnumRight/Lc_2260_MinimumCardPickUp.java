@@ -3,7 +3,7 @@ package LeetCode_EnumRight;
 import java.util.HashMap;
 import java.util.Map;
 
-public class MinimumCardPickUp {
+public class Lc_2260_MinimumCardPickUp {
     public int minimumCardPickup(int[] cards) {
         /*
             给你一个整数数组 cards ，其中 cards[i] 表示第 i 张卡牌的值。如果两张卡牌的值相同，则认为这一对卡牌匹配 。

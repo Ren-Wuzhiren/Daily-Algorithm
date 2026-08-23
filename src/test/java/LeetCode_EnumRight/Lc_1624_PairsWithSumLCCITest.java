@@ -7,7 +7,7 @@ import java.util.List;
 
 import static org.junit.Assert.*;
 
-public class PairsWithSumLCCITest {
+public class Lc_1624_PairsWithSumLCCITest {
 
     /*
         示例 1：
@@ -25,7 +25,7 @@ public class PairsWithSumLCCITest {
         -105 <= nums[i], target <= 105
     */
 
-    private final PairsWithSumLCCI solution = new PairsWithSumLCCI();
+    private final Lc_1624_PairsWithSumLCCI solution = new Lc_1624_PairsWithSumLCCI();
 
     @Test
     public void testExample1(){

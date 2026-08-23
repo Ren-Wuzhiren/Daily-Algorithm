@@ -1,6 +1,6 @@
 package LeetCode_SlidingWindow;
 
-public class MaximumPointsYouCanObtainFromCards {
+public class Lc_1423_MaximumPointsYouCanObtainFromCards {
 
     //leetcode submit region begin(Prohibit modification and deletion)
     class Solution {
@@ -45,7 +45,7 @@ public class MaximumPointsYouCanObtainFromCards {
     }
 
     public static void testExample1() {
-        Solution solution = new MaximumPointsYouCanObtainFromCards().new Solution();
+        Solution solution = new Lc_1423_MaximumPointsYouCanObtainFromCards().new Solution();
         int[] cardPoints = {1,2,3,4,5,6,1};
         int k = 3;
         int result = solution.maxScore(cardPoints, k);
@@ -53,7 +53,7 @@ public class MaximumPointsYouCanObtainFromCards {
     }
 
     public static void testExample2() {
-        Solution solution = new MaximumPointsYouCanObtainFromCards().new Solution();
+        Solution solution = new Lc_1423_MaximumPointsYouCanObtainFromCards().new Solution();
         int[] cardPoints = {2,2,2};
         int k = 2;
         int result = solution.maxScore(cardPoints, k);
@@ -61,7 +61,7 @@ public class MaximumPointsYouCanObtainFromCards {
     }
 
     public static void testExample3() {
-        Solution solution = new MaximumPointsYouCanObtainFromCards().new Solution();
+        Solution solution = new Lc_1423_MaximumPointsYouCanObtainFromCards().new Solution();
         int[] cardPoints = {9,7,7,9,7,7,9};
         int k = 7;
         int result = solution.maxScore(cardPoints, k);
@@ -69,7 +69,7 @@ public class MaximumPointsYouCanObtainFromCards {
     }
 
     public static void testExample4() {
-        Solution solution = new MaximumPointsYouCanObtainFromCards().new Solution();
+        Solution solution = new Lc_1423_MaximumPointsYouCanObtainFromCards().new Solution();
         int[] cardPoints = {1,1000,1};
         int k = 1;
         int result = solution.maxScore(cardPoints, k);
@@ -77,7 +77,7 @@ public class MaximumPointsYouCanObtainFromCards {
     }
 
     public static void testExample5() {
-        Solution solution = new MaximumPointsYouCanObtainFromCards().new Solution();
+        Solution solution = new Lc_1423_MaximumPointsYouCanObtainFromCards().new Solution();
         int[] cardPoints = {1,79,80,1,1,1,200,1};
         int k = 3;
         int result = solution.maxScore(cardPoints, k);

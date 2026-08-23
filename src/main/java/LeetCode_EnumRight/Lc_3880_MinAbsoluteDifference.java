@@ -1,6 +1,6 @@
 package LeetCode_EnumRight;
 
-public class MinAbsoluteDifference {
+public class Lc_3880_MinAbsoluteDifference {
     /*
         给你一个只包含 0、1 和 2 的整数数组 nums。
         如果 nums[i] == 1 且 nums[j] == 2，则称下标对 (i, j) 为 有效 的。

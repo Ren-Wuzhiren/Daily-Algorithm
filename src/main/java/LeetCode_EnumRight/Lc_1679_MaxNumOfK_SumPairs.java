@@ -2,7 +2,7 @@ package LeetCode_EnumRight;
 
 import java.util.HashMap;
 
-public class MaxNumOfK_SumPairs {
+public class Lc_1679_MaxNumOfK_SumPairs {
     public int maxOperations(int[] nums, int key) {
         /*
             给你一个整数数组 nums 和一个整数 key 。

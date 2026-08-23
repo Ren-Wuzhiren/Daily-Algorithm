@@ -7,13 +7,13 @@ import java.util.Deque;
 
 import static org.junit.Assert.*;
 
-public class DesignRideSharingSystemTest {
+public class Lc_3829_DesignRideSharingSystemTest {
     @Test
     public void testExample1() {
         // 手动创建两个队列，因为构造器需要它们
         Deque<Integer> riderQueue = new ArrayDeque<>();
         Deque<Integer> driverQueue = new ArrayDeque<>();
-        DesignRideSharingSystem system = new DesignRideSharingSystem();
+        Lc_3829_DesignRideSharingSystem system = new Lc_3829_DesignRideSharingSystem();
         system.addRider(3);
         system.addDriver(2);
         system.addRider(1);
@@ -27,7 +27,7 @@ public class DesignRideSharingSystemTest {
     public void testExample2() {
         Deque<Integer> riderQueue = new ArrayDeque<>();
         Deque<Integer> driverQueue = new ArrayDeque<>();
-        DesignRideSharingSystem system = new DesignRideSharingSystem();
+        Lc_3829_DesignRideSharingSystem system = new Lc_3829_DesignRideSharingSystem();
         system.addRider(8);
         system.addDriver(8);
         system.addDriver(6);

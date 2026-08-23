@@ -2,7 +2,7 @@ package LeetCode_SlidingWindow;
 
 import java.util.ArrayList;
 
-public class MaxVowels {
+public class Lc_1456_MaxVowels {
     /**
      * 给你字符串 s 和整数 k 。
      * 请返回字符串 s 中长度为 k 的单个子字符串中可能包含的最大元音字母数。

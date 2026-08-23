@@ -5,7 +5,7 @@ import org.junit.Test;
 
 import static org.junit.Assert.*;
 
-public class NumberOfRecentCounterTest {
+public class Lc_933_NumberOfRecentCounterTest {
     /*
         示例 1：
         输入：
@@ -16,14 +16,14 @@ public class NumberOfRecentCounterTest {
     */
     @Before
     public void setUp() {
-        NumberOfRecentCounter.RecentCounter();
+        Lc_933_NumberOfRecentCounter.RecentCounter();
     }
 
     @Test
     public void Test() {
-        assertEquals(1, NumberOfRecentCounter.ping(1));
-        assertEquals(2, NumberOfRecentCounter.ping(100));
-        assertEquals(3, NumberOfRecentCounter.ping(3001));
-        assertEquals(3, NumberOfRecentCounter.ping(3002));
+        assertEquals(1, Lc_933_NumberOfRecentCounter.ping(1));
+        assertEquals(2, Lc_933_NumberOfRecentCounter.ping(100));
+        assertEquals(3, Lc_933_NumberOfRecentCounter.ping(3001));
+        assertEquals(3, Lc_933_NumberOfRecentCounter.ping(3002));
     }
 }

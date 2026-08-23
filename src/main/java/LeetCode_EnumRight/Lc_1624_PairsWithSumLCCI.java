@@ -2,7 +2,7 @@ package LeetCode_EnumRight;
 
 import java.util.*;
 
-public class PairsWithSumLCCI {
+public class Lc_1624_PairsWithSumLCCI {
 
     /*
         设计一个算法，找出数组中两数之和为指定值的所有整数对。一个数只能属于一个数对。

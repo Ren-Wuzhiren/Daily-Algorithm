@@ -4,7 +4,7 @@ import org.junit.Test;
 
 import static org.junit.Assert.*;
 
-public class MaxNumOfK_SumPairsTest {
+public class Lc_1679_MaxNumOfK_SumPairsTest {
 
     /*
         示例 1：
@@ -23,7 +23,7 @@ public class MaxNumOfK_SumPairsTest {
         不再有和为 6 的数对，因此最多执行 1 次操作。
     */
 
-    private final MaxNumOfK_SumPairs solution = new MaxNumOfK_SumPairs();
+    private final Lc_1679_MaxNumOfK_SumPairs solution = new Lc_1679_MaxNumOfK_SumPairs();
 
     @Test
     public void testExample1(){

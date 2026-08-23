@@ -3,7 +3,7 @@ package LeetCode_EnumRight;
 import java.util.HashMap;
 import java.util.Map;
 
-public class ContainsDuplicate {
+public class Lc_219_ContainsDuplicateII {
     public boolean containsNearbyDuplicate(int[] nums, int key) {
         /*
             给你一个整数数组 nums 和一个整数 key ，

@@ -8,8 +8,8 @@ import java.util.ArrayList;
 
 import static org.junit.Assert.*;
 
-public class NumOfSubarrays_1343Test {
-    private final NumOfSubarrays_1343 solution = new NumOfSubarrays_1343();
+public class Lc_1343_NumOfSubarraysTest {
+    private final Lc_1343_NumOfSubarrays solution = new Lc_1343_NumOfSubarrays();
 
     @Test
     public void numOfSubarraysExample1() {

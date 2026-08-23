@@ -4,7 +4,7 @@ import org.junit.Test;
 
 import static org.junit.Assert.*;
 
-public class NumberEquivDominoPairsTest {
+public class Lc_1128_NumberEquivDominoPairsTest {
     /*
         示例 1：
         输入：dominoes = [[1,2],[2,1],[3,4],[5,6]]
@@ -15,7 +15,7 @@ public class NumberEquivDominoPairsTest {
         输出：3
     */
 
-    private final NumberEquivDominoPairs solution = new NumberEquivDominoPairs();
+    private final Lc_1128_NumberEquivDominoPairs solution = new Lc_1128_NumberEquivDominoPairs();
 
     @Test
     public void testExample1(){

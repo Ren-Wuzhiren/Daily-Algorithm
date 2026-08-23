@@ -2,7 +2,7 @@ package LeetCode_SlidingWindow;
 
 import java.util.Arrays;
 
-public class KRadiusSubarrayAverages {
+public class Lc_2090_KRadiusSubarrayAverages {
 
     //leetcode submit region begin(Prohibit modification and deletion)
     /*
@@ -74,7 +74,7 @@ public class KRadiusSubarrayAverages {
 
 
     public static void main(String[] args) {
-        Solution solution = new KRadiusSubarrayAverages().new Solution();
+        Solution solution = new Lc_2090_KRadiusSubarrayAverages().new Solution();
         // put your test code here
         int nums1[] = {7, 4, 3, 9, 1, 8, 5, 2, 6};
         int k1 = 3;

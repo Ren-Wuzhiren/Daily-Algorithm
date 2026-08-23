@@ -4,7 +4,7 @@ import org.junit.Test;
 
 import static org.junit.Assert.*;
 
-public class ContainsDuplicateTest {
+public class Lc_219_ContainsDuplicateIITest {
     /*
         给你一个整数数组 nums 和一个整数 key ，
         判断数组中是否存在两个 不同的索引 i 和 j ，
@@ -24,7 +24,7 @@ public class ContainsDuplicateTest {
         输出：false
     */
 
-    private final ContainsDuplicate solution = new ContainsDuplicate();
+    private final Lc_219_ContainsDuplicateII solution = new Lc_219_ContainsDuplicateII();
 
     @Test
     public void testExample1(){

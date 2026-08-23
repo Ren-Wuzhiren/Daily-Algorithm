@@ -5,10 +5,10 @@ import org.junit.Test;
 import java.util.Arrays;
 import java.util.List;
 
-import static LeetCode_Stack.BuildAnArrayWithStackOperations.buildArray;
+import static LeetCode_Stack.Lc_1441_BuildAnArrayWithStackOperations.buildArray;
 import static org.junit.Assert.assertEquals;
 
-public class BuildAnArrayWithStackOperationsTest{
+public class Lc_1441_BuildAnArrayWithStackOperationsTest{
 
     /*
         示例 1：

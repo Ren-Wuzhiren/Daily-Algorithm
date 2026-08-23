@@ -1,6 +1,6 @@
 package LeetCode_SlidingWindow;
 
-public class FindMaxAverage {
+public class Lc_643_FindMaxAverage {
     public double findMaxAverage(int[] nums, int k) {
 
         /**

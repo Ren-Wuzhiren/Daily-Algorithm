@@ -4,8 +4,8 @@ import org.junit.Test;
 
 import static org.junit.Assert.*;
 
-public class FindMaxAverageTest {
-    FindMaxAverage solution = new FindMaxAverage();
+public class Lc_643_FindMaxAverageTest {
+    Lc_643_FindMaxAverage solution = new Lc_643_FindMaxAverage();
 
     @Test
     public void testExample1() {

@@ -1,6 +1,6 @@
 package LeetCode_EnumRight;
 
-public class NumberEquivDominoPairs {
+public class Lc_1128_NumberEquivDominoPairs {
     public int numEquivDominoPairs(int[][] dominoes) {
         /*
             给你一组多米诺骨牌 dominoes 。

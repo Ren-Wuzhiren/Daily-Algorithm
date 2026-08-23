@@ -3,7 +3,7 @@ package LeetCode_Stack;
 import java.util.ArrayList;
 import java.util.List;
 
-public class BuildAnArrayWithStackOperations {
+public class Lc_1441_BuildAnArrayWithStackOperations {
     /*
         给你一个数组 target 和一个整数 n。
 

@@ -4,7 +4,7 @@ import org.junit.Test;
 
 import static org.junit.Assert.*;
 
-public class MaxVowelsTest {
+public class Lc_1456_MaxVowelsTest {
     /**
      给你字符串 s 和整数 k 。
      请返回字符串 s 中长度为 k 的单个子字符串中可能包含的最大元音字母数。
@@ -45,7 +45,7 @@ public class MaxVowelsTest {
      1 <= k <= s.length
      */
 
-    private final MaxVowels solution = new MaxVowels();
+    private final Lc_1456_MaxVowels solution = new Lc_1456_MaxVowels();
 
     @Test
     public void testExample1(){

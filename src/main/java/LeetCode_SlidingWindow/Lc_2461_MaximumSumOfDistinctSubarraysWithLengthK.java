@@ -2,7 +2,7 @@ package LeetCode_SlidingWindow;
 
 import java.util.HashMap;
 
-public class MaximumSumOfDistinctSubarraysWithLengthK {
+public class Lc_2461_MaximumSumOfDistinctSubarraysWithLengthK {
 
     //leetcode submit region begin(Prohibit modification and deletion)
     class Solution {
@@ -56,7 +56,7 @@ public class MaximumSumOfDistinctSubarraysWithLengthK {
 
     
     public static void main(String[] args) {
-        Solution solution = new MaximumSumOfDistinctSubarraysWithLengthK().new Solution();
+        Solution solution = new Lc_2461_MaximumSumOfDistinctSubarraysWithLengthK().new Solution();
         // put your test code here
         testExample1();
         testExample2();
@@ -65,7 +65,7 @@ public class MaximumSumOfDistinctSubarraysWithLengthK {
     }
 
     public static void testExample1() {
-        Solution solution = new MaximumSumOfDistinctSubarraysWithLengthK().new Solution();
+        Solution solution = new Lc_2461_MaximumSumOfDistinctSubarraysWithLengthK().new Solution();
         int[] nums = {1, 5, 4, 2, 9, 9, 9};
         int k = 3;
         System.out.println(solution.maximumSubarraySum(nums, k));
@@ -73,7 +73,7 @@ public class MaximumSumOfDistinctSubarraysWithLengthK {
     }
 
     public static void testExample2() {
-        Solution solution = new MaximumSumOfDistinctSubarraysWithLengthK().new Solution();
+        Solution solution = new Lc_2461_MaximumSumOfDistinctSubarraysWithLengthK().new Solution();
         int[] nums = {4, 4, 4};
         int k = 3;
         System.out.println(solution.maximumSubarraySum(nums, k));
@@ -81,7 +81,7 @@ public class MaximumSumOfDistinctSubarraysWithLengthK {
     }
 
     public static void testExample3() {
-        Solution solution = new MaximumSumOfDistinctSubarraysWithLengthK().new Solution();
+        Solution solution = new Lc_2461_MaximumSumOfDistinctSubarraysWithLengthK().new Solution();
         int[] nums = {1, 2, 2};
         int k = 2;
         System.out.println(solution.maximumSubarraySum(nums, k));
@@ -89,7 +89,7 @@ public class MaximumSumOfDistinctSubarraysWithLengthK {
     }
 
     public static void testExample4() {
-        Solution solution = new MaximumSumOfDistinctSubarraysWithLengthK().new Solution();
+        Solution solution = new Lc_2461_MaximumSumOfDistinctSubarraysWithLengthK().new Solution();
         int[] nums = {13, 3, 15, 7, 12, 17, 5, 19, 16, 15};
         int k = 2;
         System.out.println(solution.maximumSubarraySum(nums, k));

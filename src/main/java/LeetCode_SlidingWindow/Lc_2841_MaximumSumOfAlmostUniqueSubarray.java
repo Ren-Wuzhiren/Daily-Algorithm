@@ -5,7 +5,7 @@ import java.util.HashMap;
 import java.util.List;
 import java.util.Map;
 
-public class MaximumSumOfAlmostUniqueSubarray {
+public class Lc_2841_MaximumSumOfAlmostUniqueSubarray {
 
     //leetcode submit region begin(Prohibit modification and deletion)
     class Solution {
@@ -58,7 +58,7 @@ public class MaximumSumOfAlmostUniqueSubarray {
 
     
     public static void main(String[] args) {
-        Solution solution = new MaximumSumOfAlmostUniqueSubarray().new Solution();
+        Solution solution = new Lc_2841_MaximumSumOfAlmostUniqueSubarray().new Solution();
         // put your test code here
         testExample1();
         testExample2();
@@ -66,7 +66,7 @@ public class MaximumSumOfAlmostUniqueSubarray {
     }
 
     public static void testExample1() {
-        Solution solution = new MaximumSumOfAlmostUniqueSubarray().new Solution();
+        Solution solution = new Lc_2841_MaximumSumOfAlmostUniqueSubarray().new Solution();
         List<Integer> nums = new ArrayList<>();
         nums.add(2);
         nums.add(6);
@@ -82,7 +82,7 @@ public class MaximumSumOfAlmostUniqueSubarray {
     }
 
     public static void testExample2() {
-        Solution solution = new MaximumSumOfAlmostUniqueSubarray().new Solution();
+        Solution solution = new Lc_2841_MaximumSumOfAlmostUniqueSubarray().new Solution();
         List<Integer> nums = new ArrayList<>();
         nums.add(5);
         nums.add(9);
@@ -99,7 +99,7 @@ public class MaximumSumOfAlmostUniqueSubarray {
     }
 
     public static void testExample3() {
-        Solution solution = new MaximumSumOfAlmostUniqueSubarray().new Solution();
+        Solution solution = new Lc_2841_MaximumSumOfAlmostUniqueSubarray().new Solution();
         List<Integer> nums = new ArrayList<>();
         nums.add(1);
         nums.add(2);
