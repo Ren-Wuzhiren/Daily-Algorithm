@@ -7,11 +7,15 @@ public class MinimumSizeSubarraySum {
     //leetcode submit region begin(Prohibit modification and deletion)
     class Solution {
         public int minSubArrayLen(int target, int[] nums) {
+            // ans 应该初始化成一个"足够大"的哨兵值，否则 Math.min 永远停在 0。
             int ans = Integer.MAX_VALUE, left = 0, sum = 0;
             for (int right = 0; right < nums.length; right++) {
                 sum += nums[right];
                 while (sum >= target) {
+                    // 注意不要误判更新时机，sum < target 时更新是没有意义的
+                    // 保存"历史最短长度"，用 ans 本身
                     ans = Math.min(ans, right - left + 1);
+                    // 这是针对整型的收缩表述
                     sum -= nums[left];
                     left++;
                 }
