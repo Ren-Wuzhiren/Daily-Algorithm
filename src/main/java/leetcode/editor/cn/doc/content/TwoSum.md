@@ -223,11 +223,13 @@ var twoSum = function(nums, target) {
 </div></div>
 </div></div>
 
-<hr /><details open hint-container details><summary style="font-size: medium"><strong>🎃🎃 算法可视化 🎃🎃</strong></summary><div id="data_two-sum"  category="leetcode" ></div><div class="resizable aspect-ratio-container" style="height: 100%;">
+<hr /><details open hint-container details><summary style="font-size: medium"><strong>🌈🌈 算法可视化 🌈🌈</strong></summary><div id="data_two-sum"  category="leetcode" ></div><div class="resizable aspect-ratio-container" style="height: 100%;">
 <div id="iframe_two-sum"></div></div>
 </details><hr /><br />
 
 </div>
 </details>
 </div>
+
+
 

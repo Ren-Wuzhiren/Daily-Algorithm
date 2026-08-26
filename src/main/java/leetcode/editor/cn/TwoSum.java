@@ -27,6 +27,32 @@ public class TwoSum {
     public static void main(String[] args) {
         Solution solution = new TwoSum().new Solution();
         // put your test code here
-        
+        testExample1();
+        testExample2();
+        testExample3();
+    }
+
+    public static void testExample1() {
+        Solution solution = new TwoSum().new Solution();
+        int[] nums = {2, 7, 11, 15};
+        int target = 9;
+        int[] result = solution.twoSum(nums, target);
+        System.out.println("result = " + result);
+    }
+
+    public static void testExample2() {
+        Solution solution = new TwoSum().new Solution();
+        int[] nums = {3, 2, 4, };
+        int target = 6;
+        int[] result = solution.twoSum(nums, target);
+        System.out.println("result = " + result);
+    }
+
+    public static void testExample3() {
+        Solution solution = new TwoSum().new Solution();
+        int[] nums = {3, 3};
+        int target = 6;
+        int[] result = solution.twoSum(nums, target);
+        System.out.println("result = " + result);
     }
 }
