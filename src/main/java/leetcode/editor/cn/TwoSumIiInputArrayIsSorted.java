@@ -7,7 +7,7 @@ public class TwoSumIiInputArrayIsSorted {
     //leetcode submit region begin(Prohibit modification and deletion)
     class Solution {
         public int[] twoSum(int[] numbers, int target) {
-            int right = numbers.length - 1, left = 0;
+            int left = 0, right = numbers.length - 1;
             while (left < right) {
                 int sum = numbers[left] + numbers[right];
                 // 以后做算法题，把 sum == target 作为一种特殊情况处理。
@@ -17,6 +17,7 @@ public class TwoSumIiInputArrayIsSorted {
                     left++;
                 } else {
                     // 不要把右指针自减条件 sum > target 漏掉
+                    // 二刷经验：注意指针方向，不要写反了！
                     right--;
                 }
             }
