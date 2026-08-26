@@ -42,7 +42,7 @@ public class TwoSum {
 
     public static void testExample2() {
         Solution solution = new TwoSum().new Solution();
-        int[] nums = {3, 2, 4, };
+        int[] nums = {3, 2, 4};
         int target = 6;
         int[] result = solution.twoSum(nums, target);
         System.out.println("result = " + result);
