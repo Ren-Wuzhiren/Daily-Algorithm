@@ -4,6 +4,11 @@ public class Lc_209_MinimumSizeSubarraySum {
 
     class Solution {
         /**
+         * 词汇表：
+         * - 右端扩展窗口 → sum += nums[right];
+         * - 满足条件时收缩并更新答案 → while (sum >= target) { ans = Math.min(ans, right - left + 1); sum -= nums[left++]; }
+         * - 找不到时返回 0 → return ans == Integer.MAX_VALUE ? 0 : ans;
+         *
          * 一刷（8.25）误区总结：
          * 1. ans = Math.min(sum, right-left+1) —— 拿"窗口和"当"长度"比，且更新在收缩之后（窗口已不满足条件）
          * 2. ans = Math.min(Integer.MAX_VALUE, ...) —— 把哨兵值当比较对象，ans 被每次覆盖；应为 Math.min(ans, ...)
