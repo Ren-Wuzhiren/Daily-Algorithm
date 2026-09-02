@@ -18,6 +18,10 @@ public class Lc_20_ValidParentheses {
          * 2. 左括号用 peek() —— 回答反了；左括号该 push，peek 是给右括号匹配用的
          * 3. 重写时把 return stack.isEmpty() 写成 return true —— 被 "[" 用例抓住
          * 结论：判空只有两个位置——遇到右括号时（空→false）、循环结束后（非空→false）。
+         *
+         * 二刷（9.2）踩坑：
+         * return true 误放在 for 循环内 —— 第一次迭代就提前宣布成功（"(" 会返回 true）
+         * 结论：主体（push 右括号 / 匹配 / 最后判空）独立写对；"成功出口"只在循环结束后 return stack.isEmpty()，循环内不要 return true。
          */
         public boolean isValid(String s) {
             Stack<Character> stack = new Stack<>();
