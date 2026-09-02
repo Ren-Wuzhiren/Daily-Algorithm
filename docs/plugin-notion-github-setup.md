@@ -62,7 +62,7 @@
 
 ## Notion API 路线（已跑通，2026-09-02）
 
-- Token：`ntn_xxx`（workspace 级静态令牌，集成名"Ren Iridescence的连接"）；**勿写入仓库**，用完可作废重建。
+- Token：`ntn_xxx`（workspace 级静态令牌，集成名"Ren Iridescence的连接"）；**存储位置 `C:\Users\15099\.codex\notion-token.txt`**（勿写入仓库、勿贴对话）；已作废重建过一次（2026-09-02）。
 - 容器页面：`Daily-Algorithm-Blog`（id `3cfc7f1e-0ff0-8008-aae1-ff72a34fbe6a`）。
 - 能力：`GET /v1/search` 列页面、`GET /v1/pages/{id}` 读页、`POST /v1/pages` 建子页（parent 指向容器）。
 - 首个写入：`2026-09-01 · Lc_20 有效的括号`（id `3cfc7f1e-0ff0-815f-b5b9-d5cd325e1d87`）。
