@@ -17,6 +17,11 @@ public class Lc_1_TwoSum {
          * 2. map 键值方向写反 —— 应该是 值 -> 下标
          * 3. 返回下标顺序写错 —— 先查到的补数下标在前，当前 i 在后
          * 结论：先查补数再插当前值；map 存 值 -> 下标；返回 {map.get(补数), i}。
+         *
+         * 三刷（9.2）误区：
+         * 1. 把「当前元素」写成 map.get(i) —— map 的键是数组值不是下标 i，map.get(i) 返回 null → target - null NPE
+         * 2. if/return 自修对（查补数用 nums[i]）；put 存值靠 L2 提示才想起也该用 nums[i]
+         * 结论：查补数用 nums[i]，存值也用 nums[i]；map 是用来查历史的，不是拿当前元素的。
          */
         public int[] twoSum(int[] nums, int target) {
             HashMap<Integer, Integer> map = new HashMap<>();
