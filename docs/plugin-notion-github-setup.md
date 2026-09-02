@@ -55,6 +55,16 @@
 
 ## 结果记录（2026-09-02 定案）
 
-- [x] Notion 插件：失败（「未能加载插件连接」，根因 = HTTP MCP 需 OAuth + 网络；重启 + OAuth 未走通）→ 采用 **md/周批** 保底。
+- [x] Notion 插件：失败（「未能加载插件连接」，根因 = HTTP MCP 需 OAuth + 网络；重启 + OAuth 未走通）。
+- [x] **Notion API 路线：成功**（2026-09-02 验证）——integration token 有效、能读工作区、已在 `Daily-Algorithm-Blog` 下成功创建子页面。同步方式升级为 **API 直写**。
 - [ ] GitHub 插件：未测试（类型不同，可能可用；可选，不阻塞）。
-- [x] 最终 Notion 同步方式：**md + 周批**（每周日汇总 `blog/*.md` 导入）。
+- [x] 最终 Notion 同步方式：**API 直写**（token 在本地文件/环境变量，不写入仓库）；网络不稳定时退回 **md + 周批**。
+
+## Notion API 路线（已跑通，2026-09-02）
+
+- Token：`ntn_xxx`（workspace 级静态令牌，集成名"Ren Iridescence的连接"）；**勿写入仓库**，用完可作废重建。
+- 容器页面：`Daily-Algorithm-Blog`（id `3cfc7f1e-0ff0-8008-aae1-ff72a34fbe6a`）。
+- 能力：`GET /v1/search` 列页面、`GET /v1/pages/{id}` 读页、`POST /v1/pages` 建子页（parent 指向容器）。
+- 首个写入：`2026-09-01 · Lc_20 有效的括号`（id `3cfc7f1e-0ff0-815f-b5b9-d5cd325e1d87`）。
+- **注意**：api.notion.com 直连不稳定（TLS 偶发被重置），需开代理（TUN/全局模式即可）后再同步。
+- Blog 同步 = 把 `blog/YYYY-MM-DD-<题号>-<题名>.md` 转成 Notion blocks（速览 → bulleted list，完整分析 → toggle），作为容器页的子页创建。
