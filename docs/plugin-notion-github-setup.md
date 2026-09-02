@@ -66,5 +66,15 @@
 - 容器页面：`Daily-Algorithm-Blog`（id `3cfc7f1e-0ff0-8008-aae1-ff72a34fbe6a`）。
 - 能力：`GET /v1/search` 列页面、`GET /v1/pages/{id}` 读页、`POST /v1/pages` 建子页（parent 指向容器）。
 - 首个写入：`2026-09-01 · Lc_20 有效的括号`（id `3cfc7f1e-0ff0-815f-b5b9-d5cd325e1d87`）。
-- **注意**：api.notion.com 直连不稳定（TLS 偶发被重置），需开代理（TUN/全局模式即可）后再同步。
+- **关键（2026-09-02 验证）**：用 `Invoke-RestMethod`（.NET TLS）直连会被重置；改用 **PowerShell + `curl.exe`（schannel TLS）+ `Notion-Version: 2025-09-03`** 可**非代理直连**成功。
 - Blog 同步 = 把 `blog/YYYY-MM-DD-<题号>-<题名>.md` 转成 Notion blocks（速览 → bulleted list，完整分析 → toggle），作为容器页的子页创建。
+
+## 非代理自动化方案（curl.exe，2026-09-02 验证通过）
+
+- **结论**：`curl.exe`（schannel TLS）直连 `api.notion.com` 稳定可用，**无需代理**；`.NET` 的 `Invoke-RestMethod` 会被 TLS 重置，勿用。
+- **调用模板**（PowerShell）：
+  1. `$tok = (Get-Content 'C:\Users\15099\.codex\notion-token.txt' -Raw).Trim()`
+  2. body 用 hashtable → `ConvertTo-Json` → `Set-Content -Encoding UTF8` 写到 `$env:TEMP` 文件
+  3. `curl.exe -sS -X POST -H "Authorization: Bearer $tok" -H "Notion-Version: 2025-09-03" -H "Content-Type: application/json" --data-binary "@$tmp" https://api.notion.com/v1/pages`
+- **验证**：`Daily-Algorithm-Blog` 下成功创建测试文章（id `3cfc7f1e-0ff0-81c5-ba21-c284edc03c4b`）。
+- **Blog 同步**：由 Codex 把 `blog/*.md` 转 blocks，用上述模板 POST 创建子页；用户只需说「同步 Blog 到 Notion」。
