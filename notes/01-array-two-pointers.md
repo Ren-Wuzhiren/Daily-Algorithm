@@ -1,6 +1,6 @@
 # 01 数组 / 双指针
 
-状态：🟡 已学待精（`LeetCode_EnumRight` 已有 6 题）
+状态：🟡 已学待精（167/26 → `LeetCode_TwoPointers`；3880 → `LeetCode_Array`）
 
 ## 一句话
 

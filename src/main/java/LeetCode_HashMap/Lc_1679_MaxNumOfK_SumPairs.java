@@ -1,4 +1,4 @@
-package LeetCode_EnumRight;
+package LeetCode_HashMap;
 
 import java.util.HashMap;
 

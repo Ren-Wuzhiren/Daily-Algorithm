@@ -1,4 +1,4 @@
-package LeetCode_EnumRight;
+package LeetCode_Array;
 
 import org.junit.Test;
 

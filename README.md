@@ -90,6 +90,7 @@
 
 - 题解类/文件：`Lc_<题号>_<题名>`，如 `Lc_206_ReverseLinkedList.java`；配套测试为 `Lc_<题号>_<题名>Test.java`
 - 按套路分包：`LeetCode_<套路>`（沿用现有 `LeetCode_SlidingWindow` 等）
+- 归包对照：纯数组/排序扫描/前缀和 → `LeetCode_Array`；双指针（相向/同向）→ `LeetCode_TwoPointers`；哈希/计数 → `LeetCode_HashMap`；滑动窗口 → `LeetCode_SlidingWindow`；栈 → `LeetCode_Stack`；队列 → `LeetCode_Queue`；链表/树/二分等后续套路用到时建 `LeetCode_<套路>` 对应包
 - 特殊题号（如 面试题 16.24）：用去点数字命名（`Lc_1624_…`）
 - 每题必配 JUnit 测试（官方示例 + 易错/边界，见 TEMPLATE.md）；完成后在进度总表 + 打卡模板登记
 

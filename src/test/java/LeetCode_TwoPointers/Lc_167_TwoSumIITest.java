@@ -1,4 +1,4 @@
-package LeetCode_EnumRight;
+package LeetCode_TwoPointers;
 
 import org.junit.Test;
 

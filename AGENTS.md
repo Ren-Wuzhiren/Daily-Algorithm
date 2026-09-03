@@ -2,7 +2,7 @@
 
 ## 项目结构与模块组织
 
-- `src/main/java/LeetCode_*/`：按算法套路分包的题解（`LeetCode_SlidingWindow`、`LeetCode_EnumRight`、`LeetCode_Queue`、`LeetCode_Stack`），每个文件一个 public 类，命名 `Lc_<题号>_<题名>`，如 `LeetCode_SlidingWindow/Lc_209_MinimumSizeSubarraySum.java`。
+- `src/main/java/LeetCode_*/`：按算法套路分包的题解（`LeetCode_Array`、`LeetCode_TwoPointers`、`LeetCode_HashMap`、`LeetCode_SlidingWindow`、`LeetCode_Queue`、`LeetCode_Stack`），每个文件一个 public 类，命名 `Lc_<题号>_<题名>`，如 `LeetCode_SlidingWindow/Lc_209_MinimumSizeSubarraySum.java`。
 - `src/test/java/LeetCode_*/`：对应的 JUnit 4 测试（`Lc_209_MinimumSizeSubarraySumTest.java`）。
 - `src/main/java/leetcode/editor/cn/`：力扣 IDE 插件的生成区，请勿重命名或改动其结构。
 - `notes/`：按套路的笔记（`00-学习意识.md`、`01-array-two-pointers.md` 等）。
@@ -22,6 +22,7 @@
 ## 编码风格与命名规范
 
 - 新题解与测试按 `Lc_<题号>_<题名>` / `Lc_<题号>_<题名>Test` 命名，放入 `LeetCode_<套路>` 包；特殊题号需净化（如 面试题 16.24 → `Lc_1624_PairsWithSumLCCI`）。
+- 新题按套路归包：纯数组/排序扫描/前缀和 → `LeetCode_Array`；相向/同向双指针 → `LeetCode_TwoPointers`；哈希/计数 → `LeetCode_HashMap`；滑动窗口 → `LeetCode_SlidingWindow`；栈/单调栈 → `LeetCode_Stack`；队列/单调队列 → `LeetCode_Queue`；链表/二叉树/二分等套路在 Phase 1 用到时再建对应包（如 `LeetCode_LinkedList`、`LeetCode_BinaryTree`、`LeetCode_BinarySearch`）。
 - 与同目录文件风格保持一致：有的解法把方法直接写在类上，有的放在内部 `Solution` 类里。
 - 保留现有中文注释——它们是学习痕迹。
 - 缩进 4 空格；未配置格式化或 lint 工具。

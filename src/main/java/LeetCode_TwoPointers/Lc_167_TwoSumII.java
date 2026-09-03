@@ -1,4 +1,4 @@
-package LeetCode_EnumRight;
+package LeetCode_TwoPointers;
 
 public class Lc_167_TwoSumII {
 

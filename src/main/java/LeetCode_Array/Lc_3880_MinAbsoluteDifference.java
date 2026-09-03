@@ -1,4 +1,4 @@
-package LeetCode_EnumRight;
+package LeetCode_Array;
 
 public class Lc_3880_MinAbsoluteDifference {
     /*

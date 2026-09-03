@@ -1,4 +1,4 @@
-package LeetCode_EnumRight;
+package LeetCode_HashMap;
 
 public class Lc_242_ValidAnagram {
 
