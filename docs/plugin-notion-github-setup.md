@@ -58,7 +58,7 @@
 - [x] Notion 插件：失败（「未能加载插件连接」，根因 = HTTP MCP 需 OAuth + 网络；重启 + OAuth 未走通）。
 - [x] **Notion API 路线：成功**（2026-09-02 验证）——integration token 有效、能读工作区、已在 `Daily-Algorithm-Blog` 下成功创建子页面。同步方式升级为 **API 直写**。
 - [ ] GitHub 插件：未测试（类型不同，可能可用；可选，不阻塞）。
-- [x] 最终 Notion 同步方式：**API 直写**（token 在本地文件/环境变量，不写入仓库）；网络不稳定时退回 **md + 周批**。
+- [x] 最终 Notion 同步方式：**API 直写为默认方案**（token 只在本地文件/环境变量，不写入仓库）；API/网络失败时退回 **md + 周批**。
 
 ## Notion API 路线（已跑通，2026-09-02）
 
@@ -77,4 +77,5 @@
   2. body 用 hashtable → `ConvertTo-Json` → `Set-Content -Encoding UTF8` 写到 `$env:TEMP` 文件
   3. `curl.exe -sS -X POST -H "Authorization: Bearer $tok" -H "Notion-Version: 2025-09-03" -H "Content-Type: application/json" --data-binary "@$tmp" https://api.notion.com/v1/pages`
 - **验证**：`Daily-Algorithm-Blog` 下成功创建测试文章（id `3cfc7f1e-0ff0-81c5-ba21-c284edc03c4b`）。
-- **Blog 同步**：由 Codex 把 `blog/*.md` 转 blocks，用上述模板 POST 创建子页；用户只需说「同步 Blog 到 Notion」。
+- **Blog 同步**：由 Codex 把 `blog/*.md` 转 blocks，用上述模板 POST 创建子页；**完成题目并生成 Blog 后默认自动尝试同步**，用户无需额外说「同步 Blog 到 Notion」。先查询容器子页面标题，发现同名则跳过创建。
+
