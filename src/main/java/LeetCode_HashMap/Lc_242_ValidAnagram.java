@@ -14,6 +14,8 @@ public class Lc_242_ValidAnagram {
          * 2. count 声明位置 —— 应声明在方法内、循环外
          * 3. 全 0 判定漏写 —— 只判断了长度，没判断计数是否抵消干净
          * 结论：长度不等直接 false；一加一减两趟循环；最后全 0 校验。
+         * 二刷（9.4）误区：先写成 `char[]` 计数；把 t 的抵消循环嵌套进 s 的统计循环，并重复扣减外层字符 `c`；L2 后拆成两趟循环并改为 `t.charAt(j)`。
+         * 结论：计数用 `int[]`；s 加一、t 减一必须是两个并列循环；每次扣减当前 t 字符。
          */
         public boolean isAnagram(String s, String t) {
             // 长度不同直接排除（缺字母/多字母）
@@ -39,3 +41,4 @@ public class Lc_242_ValidAnagram {
         }
     }
 }
+
