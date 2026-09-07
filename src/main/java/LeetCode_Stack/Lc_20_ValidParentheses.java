@@ -22,6 +22,8 @@ public class Lc_20_ValidParentheses {
          * 二刷（9.2）踩坑：
          * return true 误放在 for 循环内 —— 第一次迭代就提前宣布成功（"(" 会返回 true）
          * 结论：主体（push 右括号 / 匹配 / 最后判空）独立写对；"成功出口"只在循环结束后 return stack.isEmpty()，循环内不要 return true。
+         * 三刷（9.7）独立 AC：5m37s，一次写对主体与最终判空，未再把 return true 放进循环。
+         * 结论：复习时先按行为拆分三段：左括号入栈、右括号匹配、遍历结束判空。
          */
         public boolean isValid(String s) {
             Stack<Character> stack = new Stack<>();
@@ -43,3 +45,4 @@ public class Lc_20_ValidParentheses {
         }
     }
 }
+
