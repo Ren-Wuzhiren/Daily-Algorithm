@@ -22,6 +22,8 @@ public class Lc_1_TwoSum {
          * 1. 把「当前元素」写成 map.get(i) —— map 的键是数组值不是下标 i，map.get(i) 返回 null → target - null NPE
          * 2. if/return 自修对（查补数用 nums[i]）；put 存值靠 L2 提示才想起也该用 nums[i]
          * 结论：查补数用 nums[i]，存值也用 nums[i]；map 是用来查历史的，不是拿当前元素的。
+         *
+         * 四刷（9.8）：无提示独立 AC ✅（查补数 / 返回 / 存值三行全对，含曾靠提示的 put 存值）→ 升 7/14 档。
          */
         public int[] twoSum(int[] nums, int target) {
             HashMap<Integer, Integer> map = new HashMap<>();
