@@ -18,6 +18,8 @@ public class Lc_26_RemoveDuplicatesFromSortedArray {
          * 二刷（9.8）踩坑：
          * 结构曾全乱 —— slow 从数组末尾起、把「循环变量」和「快指针」当成两个东西（其实是一个）
          * 心法：快指针 = for 计数器（负责看），慢指针 = 写入位（负责写）；nums[fast-1] 是「紧邻前一个」。
+         *
+         * 三刷（9.9）无提示重写：3min42s，一次写对 ✅ —— 五要素全部独立写出，无卡点。
          */
         public int removeDuplicates(int[] nums) {
             int slow = 1;
