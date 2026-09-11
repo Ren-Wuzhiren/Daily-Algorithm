@@ -51,7 +51,7 @@
 - 每天 AC 后 Codex 生成 `blog/YYYY-MM-DD-<题号>-<题名>.md`，模板见 `blog/TEMPLATE.md`。
 - 分层：**正文速览**（套路/一句话思路/卡点/新增词汇/一句收获/明日复习项）+ `<details>` 折叠**完整分析**（契约/思路/复杂度/变式自测）。
 - 低保日（忙时 15 分钟）只写速览 3 行即可。
-- 同步：**默认自动同步 Notion**——读取 `C:\Users\15099\.codex\notion-token.txt`，使用 PowerShell + `curl.exe` 非代理调用 Notion API，将 Blog 转成 blocks 写入 `Daily-Algorithm-Blog`；先检测同名页面，避免重复创建。API/网络失败时保留本地 Blog，并退回 md/周批。
+- 同步：**与登记一次做完**（同一次收尾动作，不再单独询问）。默认走 Notion MCP 直连：搜索 `Daily-Algorithm-Blog` 父页面 → 查同名页面避免重复 → 创建页面（标题 + 速览 + 完整分析 blocks）→ **读回子块验收**。MCP 不可用时退回 PowerShell + `curl.exe` 非代理调用 Notion API（`C:\Users\15099\.codex\notion-token.txt`）；API/网络失败时保留本地 Blog，退回 md/周批。
 
 ## 复盘模板（每道题 3–5 行）
 

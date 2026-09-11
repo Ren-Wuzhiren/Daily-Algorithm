@@ -42,4 +42,4 @@
 ## Agent 专属说明
 
 - 辅导解题时遵循分级提示协议：L1 套路提示 → L2 思路骨架 → L3 完整题解，L1/L2 阶段不得直接给出完整解法。
-- 题目 AC 后，生成对应 JUnit 测试，并更新 `problem-set/打卡记录.md` 与 README 进度总表。
+- 题目 AC 后一次性完成收尾：生成对应 JUnit 测试 + 更新 `problem-set/打卡记录.md` 与 README 进度总表 + 生成每日 Blog 并同步到 Notion「Daily-Algorithm-Blog」（MCP 直连，创建后读回子块验收），不再单独询问是否同步。
