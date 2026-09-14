@@ -36,6 +36,10 @@ public class Lc_206_ReverseLinkedList {
          * 5. ListNode 定义在 Solution 内部 → 力扣报 "ListNode cannot be converted to Solution.ListNode"；
          *    ListNode 由平台提供，本地版要放在提交区域外、顶层
          * 结论：prev=null / curr=head / while(curr!=null)：先存 next，再 curr.next=prev，然后 prev=curr，curr=next；return prev。
+         *
+         * 二刷（9.14）无提示重写：11min。首版③④两行接错对象（写成 prev=next / next=curr.next）→ curr 不前进 + 死循环；
+         * 经提示修正为 prev=curr / curr=next 后 AC。记 🟡 提示后 AC（3/7 天档续）。
+         * 教训：轮转那一步是「prev 接住 curr，curr 走向 next」——两个指针各接各的，别把接收对象弄混。
          */
         public ListNode reverseList(ListNode head) {
             ListNode prev = null;
