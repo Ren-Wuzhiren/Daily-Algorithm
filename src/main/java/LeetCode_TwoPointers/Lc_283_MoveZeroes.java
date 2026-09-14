@@ -15,6 +15,10 @@ public class Lc_283_MoveZeroes {
          * 3. 想通关键：0 是「空」，不需要搬；只把非零按原序写到前面，顺序自动保持
          * 4. 卡点：把「从 slow 写到末尾」翻译成 for 循环（L2 骨架后补上）——词汇层问题，非思路问题
          * 结论：两段式——先搬非零（slow 记录写入位），再 for 从 slow 到末尾填 0。
+         *
+         * 二刷（9.14）无提示重写：4min53s。第一段独立写对；第二段「擦尾巴」又忘了，提示后补上
+         * （复用 slow：for (; slow < nums.length; slow++) nums[slow] = 0;）→ 🟡 提示后 AC（3/7 天档续）。
+         * 教训：两段式缺一不可——第一段只把非零「复制」到前面，尾巴上的旧副本必须靠第二段覆盖成 0。
          */
         public void moveZeroes(int[] nums) {
             int slow = 0;
