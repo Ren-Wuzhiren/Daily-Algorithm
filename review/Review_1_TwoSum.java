@@ -1,5 +1,6 @@
-// 复习档案 · 2026-09-08 四刷 · 结果：✅ 无提示独立 AC（升 7/14 档）
-// 三行全对（含 9.2 曾靠提示的 put 存值）；解法正文与 Lc_1_TwoSum 一致
+// 复习档案 · 2026-09-15 五刷 · 结果：🟡 L1 提示后 AC（6min33s，降回 3/7 天档）
+// 一周后重写时把补数方向写成 nums[i] - target；L1 后修正为 target - nums[i]，5 个测试全绿
+// 历史：2026-09-08 四刷 · ✅ 无提示独立 AC（升 7/14 档）
 
 import java.util.HashMap;
 
@@ -7,10 +8,9 @@ public class Review_1_TwoSum {
 
     class Solution {
         /**
-         * 复习重写 · 2026-09-08 · 第 4 轮（目标：无提示独立 AC）
+         * 复习重写 · 2026-09-15 · 第 5 轮（L1 后 AC）
          */
         public int[] twoSum(int[] nums, int target) {
-            // TODO: 在此实现（无提示）
             HashMap<Integer, Integer> map = new HashMap<>();
             for (int i = 0; i < nums.length; i++) {
                 if (map.containsKey(target - nums[i])) {

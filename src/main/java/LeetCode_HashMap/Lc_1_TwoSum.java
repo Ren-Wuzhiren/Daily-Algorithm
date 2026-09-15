@@ -24,6 +24,9 @@ public class Lc_1_TwoSum {
          * 结论：查补数用 nums[i]，存值也用 nums[i]；map 是用来查历史的，不是拿当前元素的。
          *
          * 四刷（9.8）：无提示独立 AC ✅（查补数 / 返回 / 存值三行全对，含曾靠提示的 put 存值）→ 升 7/14 档。
+         *
+         * 五刷（9.15）：一周后重写把补数方向写成 nums[i] - target；骨架、先查后存和兜底返回均正确，
+         * L1 后修正为 target - nums[i]，5 个测试全绿 → 降回 3/7 档，下次 9.18 重写。
          */
         public int[] twoSum(int[] nums, int target) {
             HashMap<Integer, Integer> map = new HashMap<>();
